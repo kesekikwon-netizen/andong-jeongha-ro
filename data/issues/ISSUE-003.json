@@ -1,0 +1,10 @@
+{
+  "id": "ISSUE-003",
+  "date": "2026-10-24",
+  "kit": "Street",
+  "blockId": null,
+  "pano": "VCG2y6dRai1s7AOF00qrDg",
+  "found": "2차로 황색 실선 중앙선, 어린이보호구역 적색 포장, +6.5도 도시 격자 회전 미지원으로 건물 19동과 충돌",
+  "fix": "Street.luau에 centerLine=yellow-solid, schoolZone 적색 포장, crosswalkZ, rotationY 지원 추가 및 Streets.luau 8개 구간 +6.5도 정밀 배치(건물 충돌 0.00m) 완료",
+  "status": "fixed"
+}

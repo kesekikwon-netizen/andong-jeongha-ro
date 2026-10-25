@@ -1,0 +1,10 @@
+{
+  "id": "ISSUE-004",
+  "date": "2026-10-24",
+  "kit": "infra",
+  "blockId": null,
+  "pano": null,
+  "found": "타 워크스페이스(andong-real)가 34872 포트를 점유하고 있었고, Luau require 캐시로 인해 구 모듈이 재사용됨",
+  "fix": "34872 포트 rojo serve를 현재 워크스페이스(ro)로 재기동하고, ModuleScript 인스턴스 재생성 방식으로 require 캐시 우회 및 실시간 빌드 파이프라인 확립",
+  "status": "fixed"
+}

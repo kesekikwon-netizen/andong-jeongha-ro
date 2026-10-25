@@ -1,0 +1,785 @@
+{
+  "metadata": {
+    "target": "안동강남초등학교 (경상북도 안동시 강남1길 78 / 정하동 272-1학)",
+    "date": "2026-10-24",
+    "originLatLon": [36.549777, 128.731262],
+    "coordinateSystem": "+X = East (m), +Z = South (m), +Y = Up (m); Roblox rotationY in degrees (+6.5 deg rotates +X towards -Z and +Z towards +X via CFrame.Angles(0, math.rad(rotationY), 0))",
+    "sources": [
+      "data/captures/gate_zoom19_cropped.png (pixel-to-meter calibration: px = 144.67 + 4.1704 * X, py = 339.00 + 4.2010 * Z)",
+      "data/captures/school_zoom18_roads.png",
+      "data/observations/2026-10-24_gate.md",
+      "VWorld LT_C_SPBD building polygons (강남1길 78, 6 polygons)",
+      "VWorld LP_PA_CBND_BUBUN cadastral parcel (정하동 272-1학)",
+      "Naver Roadview panoramas DinCYGB6-nThfrMXe6v1VQ (36.5497968, 128.7325407 -> X=114.3, Z=-2.2) and DlPs12G8z5Yxtle6UuL7Ug (36.5497077, 128.7325537 -> X=115.4, Z=7.7)"
+    ],
+    "panoramas": {
+      "DinCYGB6-nThfrMXe6v1VQ": {
+        "lat": 36.5497968,
+        "lon": 128.7325407,
+        "offsetX": 114.3,
+        "offsetZ": -2.2,
+        "yawDeg": -130.0,
+        "note": "On 강남1길 (East road) just NE of the East Main Gate, looking WSW (-130 deg) directly at the East Main Gate at (X=104.8, Z=4.7)"
+      },
+      "DlPs12G8z5Yxtle6UuL7Ug": {
+        "lat": 36.5497077,
+        "lon": 128.7325537,
+        "offsetX": 115.4,
+        "offsetZ": 7.7,
+        "note": "On 강남1길 (East road) directly in front of the East Main Gate southern post"
+      }
+    }
+  },
+  "1_siteBoundary": {
+    "innerFenceRotated": {
+      "description": "Actual school perimeter fence/wall enclosing the campus (including north parking lot, West/North/South annexes, and East Main Gate along 강남1길)",
+      "offsetX": 49.9,
+      "offsetZ": -4.5,
+      "width": 108.5,
+      "depth": 106.5,
+      "floors": 0,
+      "rotationY": 6.5,
+      "rotatedFrameUV": {
+        "uCenter": 50.2,
+        "vCenter": 1.2,
+        "westU": -4.05,
+        "eastU": 104.45,
+        "northV": -52.05,
+        "southV": 54.45
+      },
+      "cornersWorldXZ": {
+        "NW": [-10.0, -51.2],
+        "NE": [97.8, -63.5],
+        "SE": [109.9, 42.3],
+        "SW": [2.1, 54.6]
+      }
+    },
+    "innerFenceAxisAligned": {
+      "description": "Effective axis-aligned bounds when building unrotated fence/site box (gate on eastX=104.8)",
+      "westX": -4.0,
+      "eastX": 104.8,
+      "northZ": -55.0,
+      "southZ": 49.0,
+      "offsetX": 50.4,
+      "offsetZ": -3.0,
+      "width": 108.8,
+      "depth": 104.0,
+      "floors": 0,
+      "rotationY": 0.0
+    },
+    "cadastralParcel_272_1": {
+      "description": "VWorld LP_PA_CBND_BUBUN parcel 정하동 272-1학 (outer property line including perimeter sidewalks up to road curbs)",
+      "offsetX": 49.85,
+      "offsetZ": -0.84,
+      "width": 114.34,
+      "depth": 112.08,
+      "floors": 0,
+      "rotationY": 6.57,
+      "axisAlignedBBox": {
+        "westX": -13.01,
+        "eastX": 112.66,
+        "northZ": -62.4,
+        "southZ": 60.97
+      },
+      "verticesXZ": [
+        [-9.8, -50.38],
+        [94.48, -62.4],
+        [100.87, -57.47],
+        [112.66, 44.79],
+        [109.58, 48.69],
+        [3.0, 60.97],
+        [-0.95, 57.73],
+        [-13.01, -46.95]
+      ]
+    },
+    "surroundingRoads": {
+      "eastRoad_Gangnam1Gil": { "xAtGate": 114.8, "width": 8.5, "rotationY": 6.5 },
+      "northRoad_Gangnam5Gil": { "zAtCenter": -63.5, "width": 8.5, "rotationY": 6.5 },
+      "southRoad_Gangnam1GilSouth": { "zAtCenter": 55.5, "width": 8.0, "rotationY": 6.5 },
+      "westRoad": { "xAtCenter": -11.5, "width": 7.0, "rotationY": 6.5 }
+    }
+  },
+  "2_eastMainGate": {
+    "gateOpening": {
+      "description": "East Main Gate on 강남1길 with silver accordion folding metal gate between two grey stone block gateposts",
+      "gateX": 104.8,
+      "gateZ": 4.7,
+      "gateWidth": 6.8,
+      "outerPostToPostSpan": 9.6,
+      "gateHeight": 1.6,
+      "postHeight": 2.8,
+      "rotationY": 6.5,
+      "rotatedFrameUV": { "u": 103.6, "v": 16.5 }
+    },
+    "rightNorthGatepost": {
+      "name": "GatePostRight_North",
+      "description": "Right (North) stone block gatepost when viewed from 강남1길 looking West; carries black plaque '안동강남초등학교 / 병설유치원' on its +X east face",
+      "offsetX": 104.4,
+      "offsetZ": 0.0,
+      "width": 1.2,
+      "depth": 2.6,
+      "floors": 1,
+      "height": 2.8,
+      "rotationY": 6.5,
+      "rotatedFrameUV": { "u": 103.7, "v": 11.7 }
+    },
+    "leftSouthGatepost": {
+      "name": "GatePostLeft_South",
+      "description": "Left (South) stone block gatepost + adjacent grey guard/gate box when viewed from 강남1길 looking West; carries black plaque '안동강남유치원' and yellow notice board",
+      "offsetX": 105.3,
+      "offsetZ": 9.2,
+      "width": 1.2,
+      "depth": 2.6,
+      "floors": 1,
+      "height": 2.8,
+      "rotationY": 6.5,
+      "adjacentGuardBox": {
+        "offsetX": 105.6,
+        "offsetZ": 9.2,
+        "width": 2.3,
+        "depth": 2.8,
+        "floors": 1,
+        "height": 2.8,
+        "rotationY": 6.5
+      },
+      "rotatedFrameUV": { "u": 103.6, "v": 20.9 }
+    },
+    "accordionGate": {
+      "name": "AccordionGate",
+      "offsetX": 104.8,
+      "offsetZ": 4.7,
+      "width": 0.25,
+      "depth": 6.6,
+      "floors": 1,
+      "height": 1.6,
+      "rotationY": 6.5
+    },
+    "waitingShelter": {
+      "name": "WaitingShelter",
+      "description": "1-story waiting shelter and 3-panel glass notice board structure just south-west of the South Gatepost",
+      "offsetX": 102.3,
+      "offsetZ": 13.8,
+      "width": 2.2,
+      "depth": 8.5,
+      "floors": 1,
+      "height": 2.6,
+      "rotationY": 6.5,
+      "rotatedFrameUV": { "u": 100.1, "v": 25.2 }
+    },
+    "woodArchCanopyWalkway": {
+      "name": "WoodArchCanopyWalkway",
+      "description": "Wood slat arch canopy pedestrian walkway running north from behind the Right (North) Gatepost to the SE corner of the North Wing",
+      "fullSpan": {
+        "offsetX": 100.3,
+        "offsetZ": -16.5,
+        "width": 3.8,
+        "depth": 37.0,
+        "floors": 1,
+        "height": 3.6,
+        "rotationY": 6.5
+      },
+      "segments": [
+        {
+          "name": "EastGateEntryCanopy",
+          "description": "EW entry canopy directly behind the North Gatepost",
+          "offsetX": 101.8,
+          "offsetZ": 0.5,
+          "width": 5.5,
+          "depth": 3.2,
+          "floors": 1,
+          "height": 3.6,
+          "rotationY": 6.5
+        },
+        {
+          "name": "EastFieldShadeCanopiesSouth",
+          "description": "4-bay tan/wood canopy section north-west of the gate",
+          "offsetX": 99.5,
+          "offsetZ": -5.2,
+          "width": 3.8,
+          "depth": 14.6,
+          "floors": 1,
+          "height": 3.5,
+          "rotationY": 6.5
+        },
+        {
+          "name": "EastWalkwayPergolaWhite",
+          "description": "3-bay white/silver walkway shelter parallel and east of EastFieldShadeCanopiesSouth",
+          "offsetX": 102.8,
+          "offsetZ": -7.5,
+          "width": 2.8,
+          "depth": 8.0,
+          "floors": 1,
+          "height": 3.2,
+          "rotationY": 6.5
+        },
+        {
+          "name": "EastWalkwayCanopyNorth",
+          "description": "6-bay tan/wood slat arch walkway canopy reaching the SE corner of North Wing",
+          "offsetX": 100.8,
+          "offsetZ": -23.2,
+          "width": 3.8,
+          "depth": 23.6,
+          "floors": 1,
+          "height": 3.6,
+          "rotationY": 6.5
+        }
+      ]
+    },
+    "eastGatehouse": {
+      "name": "EastGatehouse",
+      "vworldId": "4717014000102720001048497",
+      "vworldPolygon": {
+        "offsetX": 106.8,
+        "offsetZ": 37.69,
+        "width": 6.8,
+        "depth": 7.32,
+        "floors": 1,
+        "floorHeight": 3.0,
+        "rotationY": 7.55,
+        "vertical": true,
+        "verticesXZ": [
+          [110.62, 40.88],
+          [103.99, 41.76],
+          [102.95, 34.51],
+          [109.71, 33.76]
+        ]
+      },
+      "orthoGreenRoofBuilding": {
+        "description": "Actual green-roofed 1-story building position in gate_zoom19_cropped.png (~2.3m NW of VWorld polygon)",
+        "offsetX": 104.5,
+        "offsetZ": 35.3,
+        "width": 8.0,
+        "depth": 7.5,
+        "floors": 1,
+        "floorHeight": 3.0,
+        "rotationY": 6.5,
+        "vertical": true
+      },
+      "adjacentBlueRoofBuilding": {
+        "name": "EastBlueRoofAnnex",
+        "description": "1-story blue-roofed building immediately north of EastGatehouse and south of WaitingShelter in gate_zoom19_cropped.png",
+        "offsetX": 102.8,
+        "offsetZ": 25.0,
+        "width": 6.0,
+        "depth": 11.6,
+        "floors": 1,
+        "floorHeight": 3.2,
+        "rotationY": 6.5,
+        "vertical": true
+      }
+    }
+  },
+  "3_lShapedMainBuilding": {
+    "vworldId": "4717014000102720001015866",
+    "name": "안동강남초등학교 본관 (교사동)",
+    "floors": 4,
+    "floorHeight": 3.8,
+    "height": 15.2,
+    "rotationY": 6.45,
+    "materialStyle": "Red-brown brick facade with white horizontal floor-slab bands and white window frames",
+    "overallMinBoundingRect": {
+      "offsetX": 49.34,
+      "offsetZ": -17.86,
+      "width": 106.59,
+      "depth": 61.75,
+      "floors": 4,
+      "rotationY": 6.54
+    },
+    "northWing": {
+      "mainClassroomBar": {
+        "description": "Primary 4-story EW classroom/corridor bar (excluding rear projections)",
+        "offsetX": 49.69,
+        "offsetZ": -37.09,
+        "width": 101.44,
+        "depth": 9.25,
+        "floors": 4,
+        "floorHeight": 3.8,
+        "columns": 20,
+        "rotationY": 6.45,
+        "rotatedFrameUV": { "u": 53.54, "v": -31.28, "uMin": 2.82, "uMax": 104.26, "vMin": -35.9, "vMax": -26.65 }
+      },
+      "effectiveSingleBox": {
+        "description": "Single-box representation of North Wing using effective average depth (12.15m)",
+        "offsetX": 49.52,
+        "offsetZ": -38.53,
+        "width": 101.44,
+        "depth": 12.15,
+        "floors": 4,
+        "floorHeight": 3.8,
+        "columns": 20,
+        "rotationY": 6.45,
+        "rotatedFrameUV": { "u": 53.54, "v": -32.72 }
+      },
+      "rearAndEndProjections": [
+        {
+          "name": "NorthWing_WestRearProj",
+          "description": "NW rear projection (v10-v11-v12-v13, west of NWAnnex)",
+          "offsetX": 7.25,
+          "offsetZ": -40.53,
+          "width": 12.28,
+          "depth": 7.12,
+          "floors": 4,
+          "floorHeight": 3.8,
+          "rotationY": 6.45,
+          "rotatedFrameUV": { "u": 11.76, "v": -39.46 }
+        },
+        {
+          "name": "NorthWing_CenterStairCore",
+          "description": "Central north stairwell/elevator core projection (v14-v15-v16-v17)",
+          "offsetX": 48.88,
+          "offsetZ": -45.23,
+          "width": 7.55,
+          "depth": 7.1,
+          "floors": 4,
+          "floorHeight": 3.8,
+          "rotationY": 6.45,
+          "rotatedFrameUV": { "u": 53.66, "v": -39.45 }
+        },
+        {
+          "name": "NorthWing_EastEndWing",
+          "description": "Deeper eastern end block of North Wing (v18-v19-v0-v1, full 16.5m depth)",
+          "offsetX": 92.77,
+          "offsetZ": -45.54,
+          "width": 13.93,
+          "depth": 16.5,
+          "floors": 4,
+          "floorHeight": 3.8,
+          "rotationY": 6.45,
+          "rotatedFrameUV": { "u": 97.3, "v": -34.83 }
+        }
+      ],
+      "southCentralEntrancePorch": {
+        "name": "MainEntrancePorch",
+        "description": "White central entrance canopy/porch projecting south from North Wing toward NorthPodium",
+        "offsetX": 47.2,
+        "offsetZ": -30.6,
+        "width": 9.3,
+        "depth": 3.2,
+        "floors": 1,
+        "height": 4.2,
+        "rotationY": 6.45
+      }
+    },
+    "westWing": {
+      "southOfNorthWingBar": {
+        "description": "Primary NS bar of West Wing extending from south face of North Wing (v=-26.65) to north face of SouthAnnex (v=+18.58)",
+        "offsetX": 7.65,
+        "offsetZ": -4.92,
+        "width": 10.4,
+        "depth": 45.23,
+        "floors": 4,
+        "floorHeight": 3.8,
+        "columns": 10,
+        "vertical": true,
+        "rotationY": 6.45,
+        "rotatedFrameUV": { "u": 8.15, "v": -4.04, "uMin": 2.95, "uMax": 13.35, "vMin": -26.65, "vMax": 18.58 }
+      },
+      "fullLengthBar": {
+        "description": "Full NS bar of West Wing including overlap with NW corner (v=-35.88 to v=+18.58)",
+        "offsetX": 7.13,
+        "offsetZ": -9.51,
+        "width": 10.4,
+        "depth": 54.46,
+        "floors": 4,
+        "floorHeight": 3.8,
+        "columns": 12,
+        "vertical": true,
+        "rotationY": 6.45,
+        "rotatedFrameUV": { "u": 8.15, "v": -8.65 }
+      },
+      "southWideSection": {
+        "description": "Wider southern section of West Wing south of WestGatehouse (v4-v5-v6-v7, u=-2.18..13.20, v=5.06..18.58)",
+        "offsetX": 6.8,
+        "offsetZ": 11.13,
+        "width": 15.38,
+        "depth": 13.52,
+        "floors": 4,
+        "floorHeight": 3.8,
+        "vertical": true,
+        "rotationY": 6.45,
+        "rotatedFrameUV": { "u": 5.51, "v": 11.82 }
+      },
+      "effectiveSingleBox": {
+        "description": "Single-box representation of West Wing south of North Wing using effective width 12.85m",
+        "offsetX": 6.43,
+        "offsetZ": -4.79,
+        "width": 12.85,
+        "depth": 45.23,
+        "floors": 4,
+        "floorHeight": 3.8,
+        "columns": 10,
+        "vertical": true,
+        "rotationY": 6.45,
+        "rotatedFrameUV": { "u": 6.92, "v": -4.04 }
+      }
+    },
+    "innerCornerArcPlaza": {
+      "description": "Quarter-circle stepped plaza/terrace in the inner corner between North Wing and West Wing",
+      "offsetX": 15.8,
+      "offsetZ": -22.5,
+      "radius": 9.5,
+      "rotationY": 6.45
+    },
+    "vworldPolygonVerticesXZ": [
+      [98.72, -54.51],
+      [100.66, -38.13],
+      [10.38, -28.06],
+      [10.73, -24.69],
+      [15.22, 17.12],
+      [-0.05, 18.55],
+      [-1.65, 5.27],
+      [3.73, 4.69],
+      [-0.13, -24.69],
+      [-1.05, -35.99],
+      [1.58, -36.28],
+      [0.73, -43.37],
+      [12.85, -44.76],
+      [13.85, -37.71],
+      [45.51, -41.13],
+      [44.77, -48.42],
+      [52.08, -49.07],
+      [53.18, -42.41],
+      [85.84, -45.83],
+      [84.83, -52.67]
+    ]
+  },
+  "4_auxiliaryBuildings": {
+    "SouthAnnex": {
+      "name": "SouthAnnex",
+      "description": "SW Gym / Kindergarten / Cafeteria building (체육관·병설유치원·급식동)",
+      "vworldId": "4717014000102720001050514",
+      "offsetX": 10.71,
+      "offsetZ": 32.92,
+      "width": 20.6,
+      "depth": 29.5,
+      "floors": 2,
+      "vworldGroFloCo": 1,
+      "floorHeight": 4.2,
+      "totalHeight": 8.4,
+      "columns": 6,
+      "vertical": true,
+      "rotationY": 5.31,
+      "rotatedFrameUV": { "u": 6.95, "v": 33.91 },
+      "verticesXZ": [
+        [1.82, 48.56],
+        [-0.88, 19.5],
+        [19.6, 17.28],
+        [22.12, 46.35]
+      ]
+    },
+    "WestGatehouse": {
+      "name": "WestGatehouse",
+      "description": "1-story annex indented into the west face of West Wing",
+      "vworldId": "4717014000102720001050515",
+      "offsetX": 0.21,
+      "offsetZ": 0.04,
+      "width": 4.92,
+      "depth": 8.91,
+      "floors": 1,
+      "floorHeight": 3.0,
+      "columns": 2,
+      "vertical": true,
+      "rotationY": 6.64,
+      "rotatedFrameUV": { "u": 0.2, "v": 0.06 },
+      "verticesXZ": [
+        [3.17, 4.18],
+        [-1.13, 4.66],
+        [-2.75, -4.1],
+        [2.17, -4.43]
+      ]
+    },
+    "NorthShed": {
+      "name": "NorthShed",
+      "description": "Long 1-story storage/parking shed north of the eastern half of North Wing",
+      "vworldId": "4717014000102720001051896",
+      "offsetX": 72.92,
+      "offsetZ": -48.8,
+      "width": 21.98,
+      "depth": 6.44,
+      "floors": 1,
+      "floorHeight": 3.0,
+      "columns": 5,
+      "vertical": false,
+      "rotationY": 6.6,
+      "rotatedFrameUV": { "u": 77.94, "v": -40.3 },
+      "verticesXZ": [
+        [83.83, -46.92],
+        [62.37, -44.34],
+        [62.14, -50.8],
+        [83.47, -53.27]
+      ]
+    },
+    "NWAnnex": {
+      "name": "NWAnnex",
+      "description": "1-story annex tucked into the north face of North Wing at X=17.8, Z=-42.0",
+      "vworldId": "4717014000102720001051897",
+      "offsetX": 17.77,
+      "offsetZ": -41.96,
+      "width": 7.93,
+      "depth": 6.75,
+      "floors": 1,
+      "floorHeight": 3.0,
+      "columns": 2,
+      "vertical": false,
+      "rotationY": 6.74,
+      "rotatedFrameUV": { "u": 22.37, "v": -39.69 },
+      "verticesXZ": [
+        [13.46, -44.85],
+        [21.22, -45.63],
+        [22.1, -39.07],
+        [14.23, -38.14]
+      ]
+    },
+    "EastGatehouse": {
+      "name": "EastGatehouse",
+      "description": "1-story SE gatehouse/annex (VWorld polygon at (106.80, 37.69), satellite green roof at (104.5, 35.3))",
+      "vworldId": "4717014000102720001048497",
+      "offsetX": 106.8,
+      "offsetZ": 37.69,
+      "width": 6.8,
+      "depth": 7.32,
+      "floors": 1,
+      "floorHeight": 3.0,
+      "columns": 2,
+      "vertical": true,
+      "rotationY": 7.55,
+      "orthoOffsetX": 104.5,
+      "orthoOffsetZ": 35.3,
+      "orthoWidth": 8.0,
+      "orthoDepth": 7.5,
+      "rotatedFrameUV": { "u": 101.89, "v": 49.45 }
+    },
+    "additionalOrthoStructures": [
+      {
+        "name": "WestNorthAnnex",
+        "description": "1-story grey-roofed annex along the west fence north of WestGatehouse visible in gate_zoom19_cropped.png",
+        "offsetX": -3.2,
+        "offsetZ": -14.0,
+        "width": 5.2,
+        "depth": 13.0,
+        "floors": 1,
+        "floorHeight": 3.0,
+        "vertical": true,
+        "rotationY": 6.5
+      },
+      {
+        "name": "NorthParkingOrangeShed",
+        "description": "Small orange-roofed shed just west of NorthShed in the north parking lot",
+        "offsetX": 59.6,
+        "offsetZ": -51.8,
+        "width": 4.2,
+        "depth": 6.5,
+        "floors": 1,
+        "floorHeight": 2.8,
+        "rotationY": 6.5
+      }
+    ]
+  },
+  "5_playgroundAndCanopies": {
+    "field": {
+      "name": "Field",
+      "description": "Sandy playground court bounded by the L-shaped school building (N & W), East canopies/gate (E), and South long shade canopy (S)",
+      "offsetX": 58.5,
+      "offsetZ": 8.5,
+      "width": 77.0,
+      "depth": 61.0,
+      "floors": 0,
+      "rotationY": 6.5,
+      "rotatedFrameUV": { "u": 57.2, "v": 15.0 },
+      "mainTrackZoneOnly": {
+        "description": "Northern/central athletics sand court excluding the southern tree/garden strip",
+        "offsetX": 58.0,
+        "offsetZ": 1.5,
+        "width": 76.0,
+        "depth": 44.0,
+        "rotationY": 6.5
+      }
+    },
+    "runningTrack": {
+      "name": "RunningTrack",
+      "description": "White-lined oval running track with central soccer pitch and two goalposts",
+      "offsetX": 60.5,
+      "offsetZ": 3.8,
+      "width": 55.0,
+      "depth": 23.5,
+      "straightLength": 33.0,
+      "outerCurveRadius": 11.75,
+      "innerCurveRadius": 9.2,
+      "laneBandWidth": 2.55,
+      "rotationY": 6.5,
+      "rotatedFrameUV": { "u": 59.7, "v": 10.6 },
+      "goalposts": {
+        "westGoal": { "offsetX": 39.2, "offsetZ": 6.2, "width": 1.2, "depth": 5.0, "height": 2.2, "rotationY": 6.5 },
+        "eastGoal": { "offsetX": 81.8, "offsetZ": 1.3, "width": 1.2, "depth": 5.0, "height": 2.2, "rotationY": 6.5 }
+      },
+      "longJumpSandPit": {
+        "offsetX": 27.5,
+        "offsetZ": 18.0,
+        "width": 3.5,
+        "depth": 6.5,
+        "rotationY": 6.5
+      },
+      "southCurvedPlayTrack": {
+        "description": "S-curved ochre/reddish play/running path between the oval track and the south trees",
+        "offsetX": 60.0,
+        "offsetZ": 24.5,
+        "width": 62.0,
+        "depth": 6.0,
+        "rotationY": 6.5
+      }
+    },
+    "northPodium": {
+      "name": "NorthPodium",
+      "description": "Concrete assembly podium with curved white/silver metallic canopy roof at the north center of the playground",
+      "offsetX": 57.3,
+      "offsetZ": -23.4,
+      "width": 7.6,
+      "depth": 4.8,
+      "podiumBaseHeight": 0.9,
+      "canopyHeight": 3.6,
+      "floors": 1,
+      "rotationY": 6.5,
+      "rotatedFrameUV": { "u": 59.6, "v": -16.8 }
+    },
+    "shadeCanopies": {
+      "northEdge": [
+        {
+          "name": "NorthPodiumCanopy",
+          "description": "Curved silver/white roof directly over the North Podium",
+          "offsetX": 57.3,
+          "offsetZ": -23.4,
+          "width": 7.6,
+          "depth": 4.8,
+          "floors": 1,
+          "height": 3.6,
+          "rotationY": 6.5
+        },
+        {
+          "name": "NorthEastShadeCanopy",
+          "description": "3-bay tan/orange shade canopy at the NE edge of the playground south of the eastern tree belt",
+          "offsetX": 86.2,
+          "offsetZ": -24.0,
+          "width": 6.5,
+          "depth": 3.0,
+          "floors": 1,
+          "height": 3.2,
+          "rotationY": 6.5
+        },
+        {
+          "name": "NorthFacadeAwnings",
+          "description": "4 white rectangular awnings along the south facade of the North Wing west of the central entrance porch",
+          "offsetX": 31.2,
+          "offsetZ": -28.3,
+          "width": 18.5,
+          "depth": 2.5,
+          "floors": 1,
+          "height": 3.2,
+          "rotationY": 6.5
+        }
+      ],
+      "eastEdge": [
+        {
+          "name": "EastWalkwayCanopyNorth",
+          "description": "6-bay tan/wood slat canopy running from the SE corner of the North Wing along the east edge",
+          "offsetX": 100.8,
+          "offsetZ": -23.2,
+          "width": 3.8,
+          "depth": 23.6,
+          "floors": 1,
+          "height": 3.6,
+          "rotationY": 6.5
+        },
+        {
+          "name": "EastFieldShadeCanopiesSouth",
+          "description": "4-bay tan/orange shade canopies along the east edge of the playground just NW of the East Main Gate",
+          "offsetX": 99.5,
+          "offsetZ": -5.2,
+          "width": 3.8,
+          "depth": 14.6,
+          "floors": 1,
+          "height": 3.5,
+          "rotationY": 6.5
+        },
+        {
+          "name": "EastGateEntryCanopy",
+          "description": "East-west canopy bay connecting the east walkway canopy to the back of the North Gatepost",
+          "offsetX": 101.8,
+          "offsetZ": 0.5,
+          "width": 5.5,
+          "depth": 3.2,
+          "floors": 1,
+          "height": 3.6,
+          "rotationY": 6.5
+        },
+        {
+          "name": "EastWalkwayPergolaWhite",
+          "description": "3 white/silver square canopies immediately east of EastFieldShadeCanopiesSouth",
+          "offsetX": 102.8,
+          "offsetZ": -7.5,
+          "width": 2.8,
+          "depth": 8.0,
+          "floors": 1,
+          "height": 3.2,
+          "rotationY": 6.5
+        }
+      ],
+      "southAndWestEdges": [
+        {
+          "name": "SouthLongShadeCanopy",
+          "description": "Continuous 19-bay alternating green-and-white striped shade canopy roof along the entire south edge of the playground (from SE corner of SouthAnnex to EastGatehouse)",
+          "offsetX": 64.2,
+          "offsetZ": 44.8,
+          "width": 70.6,
+          "depth": 4.5,
+          "bays": 19,
+          "floors": 1,
+          "height": 3.2,
+          "rotationY": 6.5,
+          "rotatedFrameUV": { "u": 58.8, "v": 51.8 }
+        },
+        {
+          "name": "SouthWestBlueCanopies",
+          "description": "Pair of bright blue square/octagonal shade tents on the SW edge of the playground just east of SouthAnnex",
+          "offsetX": 31.5,
+          "offsetZ": 29.5,
+          "width": 3.8,
+          "depth": 8.0,
+          "floors": 1,
+          "height": 3.0,
+          "rotationY": 6.5,
+          "tents": [
+            { "name": "SWBlueTentNorth", "offsetX": 31.3, "offsetZ": 27.5, "width": 3.8, "depth": 3.8, "rotationY": 6.5 },
+            { "name": "SWBlueTentSouth", "offsetX": 31.7, "offsetZ": 31.5, "width": 3.8, "depth": 3.8, "rotationY": 6.5 }
+          ]
+        },
+        {
+          "name": "WestWalkwayAwnings",
+          "description": "4 white rectangular awnings along the east facade of the West Wing facing the playground",
+          "offsetX": 16.2,
+          "offsetZ": -3.5,
+          "width": 2.5,
+          "depth": 24.0,
+          "floors": 1,
+          "height": 3.2,
+          "rotationY": 6.5
+        }
+      ]
+    },
+    "treeBelts": {
+      "northWestTreeRow": { "startXZ": [25.0, -24.5], "endXZ": [52.0, -27.5], "count": 6 },
+      "northEastTreeRow": { "startXZ": [63.0, -26.5], "endXZ": [89.0, -29.5], "count": 6 },
+      "southTreeRow": {
+        "description": "5 large deciduous trees + east gate trees along the south side of the playground north of SouthLongShadeCanopy",
+        "treesXZ": [
+          [34.0, 38.0],
+          [44.5, 36.8],
+          [58.0, 35.5],
+          [72.0, 34.0],
+          [84.5, 32.5],
+          [95.5, 33.0],
+          [94.5, 22.0]
+        ]
+      }
+    }
+  }
+}

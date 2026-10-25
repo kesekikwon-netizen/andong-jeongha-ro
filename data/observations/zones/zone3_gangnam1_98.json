@@ -1,0 +1,484 @@
+{
+  "zone": 3,
+  "zoneName": "강남1길 98번지 일대 + 동쪽 상가동",
+  "panos": {
+    "8_KJij7FoS6VvEVm-OBGMg": {
+      "date": "2024-03",
+      "pos": [114.9, 97.5],
+      "notes": "강남1길 동쪽 사거리 부근. 북서쪽(342.6°)에 코너 건물 강남1길 96(해질녘/bhc치킨/이지미용실), 동남쪽(106.8°)에 화성드림파크 상가동(vw-068-014807) 관측."
+    },
+    "VHmreWk2n-4mZaZFNnBRSA": {
+      "date": "2024-03",
+      "pos": [105.3, 98.5],
+      "notes": "강남1길 98-6(북서 334.4°, Tupperware/와이즈학원) 및 강남1길 96(북동 17.1°, 해질녘/bhc치킨) 정면 관측 지점."
+    },
+    "2GW9abIQ4N6FSSaePDSX8w": {
+      "date": "2024-03",
+      "pos": [95.7, 99.4],
+      "notes": "강남1길 98-6(북 4.0°, Tupperware/와이즈학원) 및 강남1길 98-10(북서 326.9°, 타코비/아이스크림할인매장/잉글리시아이) 관측 지점."
+    },
+    "Rij2cWDn42U2haFZvCsv7A": {
+      "date": "2024-03",
+      "pos": [84.9, 100.7],
+      "notes": "강남1길 98-10(북 355.1°) 정면 및 강남1길 98-12(북서 305.2°, 피아노 칸타빌레/네오/복권판매점) 관측 지점."
+    },
+    "22q12Us2S2iKWlTOKwvOhQ": {
+      "date": "2024-03",
+      "pos": [75.5, 102.0],
+      "notes": "강남1길 98-12(북서 338.7°, 12.2m) 최근접 정면 관측 지점."
+    },
+    "NUzcnzak0iW0KRYVvLK_DA": {
+      "date": "2024-03",
+      "pos": [66.2, 102.9],
+      "notes": "강남1길 98-14(북서 336.6°, 보오그 미용실) 및 남쪽 현진에버빌3차 상가동 동측(라임/백양세탁소) 관측 지점."
+    },
+    "gejxTprBCAAg5J91_MtEQw": {
+      "date": "2024-03",
+      "pos": [56.1, 103.5],
+      "notes": "강남1길 98-14(북동 8.3°, 보오그 미용실) 및 강남1길 98-16(북서 327.5°, 달항아리/Logos영어연구소) 정면 관측 지점."
+    },
+    "skADvkxtzTbKG5zMXvQkjQ": {
+      "date": "2024-03",
+      "pos": [47.7, 104.7],
+      "notes": "북쪽 강남1길 98-16(358.9°), 북서쪽 강남1길 98-18(321.3°, NOAH/강은숙피아노), 남쪽 현진에버빌3차 상가동(181.4°, 라임~코사마트) 핵심 관측 지점."
+    },
+    "M42_EaujaIY00QvUDmpemQ": {
+      "date": "2024-03",
+      "pos": [37.9, 106.0],
+      "notes": "강남1길 98-18(북서 349.2°, NOAH/강은숙피아노) 및 남동쪽 현진에버빌3차 상가동 중앙부(143.0°, GAMJA/8月/빨간떡보끼/안동푸른한우) 정면 관측 지점."
+    },
+    "taAruVMXFkuag4SLAYzZGw": {
+      "date": "2024-03",
+      "pos": [28.9, 107.4],
+      "notes": "강남1길 98-22(북서 339.0°, 권현정 피아노/놀작마이아트/리즈뷰티케어) 및 남동쪽 코사마트(현진3차점) 관측 지점."
+    },
+    "ZVxqtR9LvzxU5f5WfEnUoA": {
+      "date": "2024-03",
+      "pos": [19.7, 108.5],
+      "notes": "강남1길 98-24 동측 매장(북서 330.3°, 마노/차수학) 및 강남1길 98-22 서측(놀작마이아트) 관측 지점."
+    },
+    "4vEJuplKRc9DwUOWsk2-jg": {
+      "date": "2024-03",
+      "pos": [9.8, 109.4],
+      "notes": "강남1길 서쪽 코너. 강남1길 98-24(북 4.5°, 강남점빵/마노/차수학/스마트해법영어) 최근접 정면 관측 지점."
+    }
+  },
+  "buildings": {
+    "강남1길 98-6": {
+      "wall": "charcoal_panel",
+      "wallColor": "#686c70",
+      "roof": "flat",
+      "piloti": false,
+      "stoneFascia": false,
+      "awningColor": null,
+      "deck": true,
+      "heightOverride": null,
+      "signs": [
+        {
+          "floor": 2,
+          "side": "S",
+          "text": "와이즈학원",
+          "sub": "855-0406",
+          "bg": "#2b2b2b",
+          "fg": "#ffffff"
+        },
+        {
+          "floor": 1,
+          "side": "S",
+          "text": "Tupperware",
+          "sub": "타파웨어",
+          "bg": "#f4f4f2",
+          "fg": "#222222"
+        }
+      ],
+      "bestPano": "2GW9abIQ4N6FSSaePDSX8w",
+      "bestBearing": 4.0,
+      "verified": true,
+      "note": "3층 모던 상가주택(회색 메탈 패널 및 좌측 우드 포인트 외장, 1층 전면 데크). 실제 간판은 1층 Tupperware(타파웨어), 2층 와이즈학원(855-0406). 기존 힌트의 BHC치킨(정하점)/해질녘/이지미용실은 동쪽 인접 코너 건물인 강남1길 96(X=110.2, Z=82.6, 건물기둥 도로명판 96 확인)에 위치함."
+    },
+    "강남1길 98-10": {
+      "wall": "white_stucco",
+      "wallColor": "#e8e4dc",
+      "roof": "flat",
+      "piloti": false,
+      "stoneFascia": false,
+      "awningColor": "#d86a38",
+      "deck": false,
+      "heightOverride": null,
+      "signs": [
+        {
+          "floor": 2,
+          "side": "S",
+          "text": "잉글리시아이",
+          "sub": "파닉스 기초영어 내신대비",
+          "bg": "#f5f5f5",
+          "fg": "#1e6bb8"
+        },
+        {
+          "floor": 1,
+          "side": "S",
+          "text": "타코비 타코야끼",
+          "sub": "TAKOBI",
+          "bg": "#c82828",
+          "fg": "#ffffff"
+        },
+        {
+          "floor": 1,
+          "side": "S",
+          "text": "아이스크림 할인매장",
+          "sub": "아이스크림 & 세계과자",
+          "bg": "#ffffff",
+          "fg": "#0088cc"
+        }
+      ],
+      "bestPano": "2GW9abIQ4N6FSSaePDSX8w",
+      "bestBearing": 326.9,
+      "verified": true,
+      "note": "2층 밝은 스터코 상가건물(옥상 난간, 1층 주황색 어닝 2개). 1층 좌측 타코비 타코야끼, 1층 우측 아이스크림 할인매장, 2층 잉글리시아이 영어학원."
+    },
+    "강남1길 98-12": {
+      "wall": "dark_stone",
+      "wallColor": "#45484c",
+      "roof": "flat",
+      "piloti": false,
+      "stoneFascia": true,
+      "awningColor": null,
+      "deck": false,
+      "heightOverride": null,
+      "signs": [
+        {
+          "floor": 2,
+          "side": "S",
+          "text": "피아노 칸타빌레",
+          "sub": "CANTABILE T.856-1247",
+          "bg": "#2b2b2b",
+          "fg": "#f5d142"
+        },
+        {
+          "floor": 1,
+          "side": "S",
+          "text": "네오",
+          "sub": "NEO",
+          "bg": "#f0f0f0",
+          "fg": "#222222"
+        },
+        {
+          "floor": 1,
+          "side": "S",
+          "text": "복권판매점",
+          "sub": "제일복권판매점",
+          "bg": "#d42c2c",
+          "fg": "#ffffff"
+        }
+      ],
+      "bestPano": "22q12Us2S2iKWlTOKwvOhQ",
+      "bestBearing": 338.7,
+      "verified": true,
+      "note": "3층 진회색 석재 타일 마감 상가건물. 상부 파시아 및 2층 창문에 피아노 칸타빌레(T.856-1247), 1층 중앙 네오(NEO), 1층 우측 제일복권판매점."
+    },
+    "강남1길 98-14": {
+      "wall": "red_brick",
+      "wallColor": "#8c4638",
+      "roof": "flat",
+      "piloti": false,
+      "stoneFascia": false,
+      "awningColor": "#6a3842",
+      "deck": false,
+      "heightOverride": null,
+      "signs": [
+        {
+          "floor": 1,
+          "side": "S",
+          "text": "보오그 미용실",
+          "sub": "T.854-5145",
+          "bg": "#3a3532",
+          "fg": "#ffffff"
+        }
+      ],
+      "bestPano": "gejxTprBCAAg5J91_MtEQw",
+      "bestBearing": 8.3,
+      "verified": true,
+      "note": "1층 단층 적벽돌 상가건물. 자주색/흰색 스트라이프 어닝 및 상부 다크바 위 흰색 입체문자 '보오그 미용실 T.854-5145'."
+    },
+    "강남1길 98-16": {
+      "wall": "beige_brick",
+      "wallColor": "#b89f88",
+      "roof": "gable",
+      "piloti": false,
+      "stoneFascia": false,
+      "awningColor": null,
+      "deck": true,
+      "heightOverride": null,
+      "signs": [
+        {
+          "floor": 2,
+          "side": "S",
+          "text": "Logos 영어연구소",
+          "sub": "상담문의 010-8560-1779",
+          "bg": "#ffffff",
+          "fg": "#a82060"
+        },
+        {
+          "floor": 1,
+          "side": "S",
+          "text": "달항아리",
+          "sub": null,
+          "bg": "#3d2e24",
+          "fg": "#ffffff"
+        }
+      ],
+      "bestPano": "gejxTprBCAAg5J91_MtEQw",
+      "bestBearing": 327.5,
+      "verified": true,
+      "note": "3층 변색벽돌(베이지/브라운 믹스) 및 박공지붕 상가주택. 1층 전면 짙은 목재 파사드와 대형 원목 데크/파고라 설치, '달항아리' 간판. 2층 창문에 'Logos 영어연구소(010-8560-1779)' 시트지."
+    },
+    "강남1길 98-18": {
+      "wall": "beige_stone",
+      "wallColor": "#d6cfc2",
+      "roof": "flat",
+      "piloti": false,
+      "stoneFascia": true,
+      "awningColor": null,
+      "deck": false,
+      "heightOverride": null,
+      "signs": [
+        {
+          "floor": 2,
+          "side": "S",
+          "text": "강은숙 피아노",
+          "sub": "유·초등부 중·고등부 성인반 입시반",
+          "bg": "#4a5560",
+          "fg": "#ffffff"
+        },
+        {
+          "floor": 1,
+          "side": "S",
+          "text": "NOAH",
+          "sub": "Cafe NOAH / MUSIC HOUSE",
+          "bg": "#f5f5f3",
+          "fg": "#333333"
+        }
+      ],
+      "bestPano": "M42_EaujaIY00QvUDmpemQ",
+      "bestBearing": 349.2,
+      "verified": true,
+      "note": "3층 밝은 베이지 석재 마감 건물(좌측 유리 계단실 커튼월). 1층 화이트 모던 파사드 카페 'NOAH(MUSIC HOUSE)', 2층 창문 '강은숙 피아노'."
+    },
+    "강남1길 98-22": {
+      "wall": "beige_stone",
+      "wallColor": "#d8d4cc",
+      "roof": "flat",
+      "piloti": false,
+      "stoneFascia": true,
+      "awningColor": null,
+      "deck": false,
+      "heightOverride": null,
+      "signs": [
+        {
+          "floor": 2,
+          "side": "S",
+          "text": "권현정 피아노",
+          "sub": "859-2291 유치부·초등부·중고등부 입시",
+          "bg": "#ffffff",
+          "fg": "#d62828"
+        },
+        {
+          "floor": 1,
+          "side": "S",
+          "text": "noljak",
+          "sub": "놀작마이아트 010-6428-9921",
+          "bg": "#ffffff",
+          "fg": "#e04040"
+        },
+        {
+          "floor": 1,
+          "side": "S",
+          "text": "피부관리실 Lee's Beauty Care",
+          "sub": "리즈뷰티케어 T.853-4050",
+          "bg": "#f4f4f6",
+          "fg": "#444444"
+        }
+      ],
+      "bestPano": "taAruVMXFkuag4SLAYzZGw",
+      "bestBearing": 339.0,
+      "verified": true,
+      "note": "3층 밝은 석재 마감 상가건물(우측 기둥 도로명판 '강남1길 98-22' 확인). 2층은 기존 힌트(열린피아노)가 아닌 '권현정 피아노(859-2291)', 1층 좌측은 'noljak(놀작마이아트)', 1층 우측은 '피부관리실 Lee's Beauty Care(리즈뷰티케어 T.853-4050)'."
+    },
+    "강남1길 98-24": {
+      "wall": "beige_stone",
+      "wallColor": "#cfc6b8",
+      "roof": "flat",
+      "piloti": false,
+      "stoneFascia": true,
+      "awningColor": "#d85888",
+      "deck": true,
+      "heightOverride": null,
+      "signs": [
+        {
+          "floor": 3,
+          "side": "W",
+          "text": "스마트 해법영어",
+          "sub": "SMART HB English 010-8520-7091",
+          "bg": "#ffffff",
+          "fg": "#1b4f9c"
+        },
+        {
+          "floor": 2,
+          "side": "S",
+          "text": "차수학",
+          "sub": "꿈을 향한 수학만점 프로젝트 정하 캠퍼스 010-2870-9473",
+          "bg": "#f5e165",
+          "fg": "#222222"
+        },
+        {
+          "floor": 1,
+          "side": "S",
+          "text": "마노",
+          "sub": "수입보세전문 858-6577",
+          "bg": "#4a3222",
+          "fg": "#e84855"
+        },
+        {
+          "floor": 1,
+          "side": "S",
+          "text": "강남점빵",
+          "sub": null,
+          "bg": "#f5f5f5",
+          "fg": "#222222"
+        }
+      ],
+      "bestPano": "4vEJuplKRc9DwUOWsk2-jg",
+      "bestBearing": 4.5,
+      "verified": true,
+      "note": "3층 베이지 석재 및 코너 블루 유리 커튼월 상가건물(도로명판 '강남1길 98-24' 확인). 1층 서측 코너 '강남점빵'(핑크 어닝), 1층 동측 '마노'(목재 외장+자주색 어닝, 소형 전면 데크 난간), 2층 '차수학 정하 캠퍼스(010-2870-9473)', 3층 서측면 '스마트 해법영어(010-8520-7091)'."
+    },
+    "vw-068-014807": {
+      "wall": "beige_brick",
+      "wallColor": "#c8b8a0",
+      "roof": "gable",
+      "piloti": false,
+      "stoneFascia": false,
+      "awningColor": "#c83232",
+      "deck": false,
+      "heightOverride": null,
+      "signs": [
+        {
+          "floor": 2,
+          "side": "W",
+          "text": "피아노 교습소",
+          "sub": "010-7204-8077",
+          "bg": "#ffffff",
+          "fg": "#222222"
+        },
+        {
+          "floor": 2,
+          "side": "N",
+          "text": "유니시티",
+          "sub": null,
+          "bg": "#1d4e89",
+          "fg": "#ffffff"
+        },
+        {
+          "floor": 1,
+          "side": "W",
+          "text": "릴리",
+          "sub": null,
+          "bg": "#ffffff",
+          "fg": "#222222"
+        },
+        {
+          "floor": 1,
+          "side": "N",
+          "text": "화성세탁소",
+          "sub": null,
+          "bg": "#1e5aa8",
+          "fg": "#ffffff"
+        },
+        {
+          "floor": 1,
+          "side": "N",
+          "text": "댓잎갈비",
+          "sub": null,
+          "bg": "#1e5aa8",
+          "fg": "#ffffff"
+        }
+      ],
+      "bestPano": "8_KJij7FoS6VvEVm-OBGMg",
+      "bestBearing": 106.8,
+      "verified": true,
+      "note": "화성드림파크 2층 상가동(연베이지 벽돌+박공지붕). 서측 끝단 2층 '피아노 교습소(010-7204-8077)', 1층 '릴리', 북면 1층 '화성세탁소', 2층 '유니시티', 동측 돌출간판 '댓잎갈비' 확인."
+    },
+    "vw-324-015852": {
+      "wall": "brown_brick",
+      "wallColor": "#7a5240",
+      "roof": "flat",
+      "piloti": false,
+      "stoneFascia": false,
+      "awningColor": "#286848",
+      "deck": false,
+      "heightOverride": 4.5,
+      "signs": [
+        {
+          "floor": 1,
+          "side": "N",
+          "text": "라임",
+          "sub": "Lime Hair Salon 853-3265",
+          "bg": "#2b2625",
+          "fg": "#f06898"
+        },
+        {
+          "floor": 1,
+          "side": "N",
+          "text": "백양세탁소",
+          "sub": "853-8509",
+          "bg": "#286848",
+          "fg": "#ffffff"
+        },
+        {
+          "floor": 1,
+          "side": "N",
+          "text": "GAMJA",
+          "sub": "정하동 본점 / 24시 무인카페",
+          "bg": "#f5f5f5",
+          "fg": "#333333"
+        },
+        {
+          "floor": 1,
+          "side": "N",
+          "text": "8月",
+          "sub": "Dress shop 8月",
+          "bg": "#1f3558",
+          "fg": "#ffffff"
+        },
+        {
+          "floor": 1,
+          "side": "N",
+          "text": "빨간 떡보끼",
+          "sub": "김밥 떡보끼 054)854-2233",
+          "bg": "#c83228",
+          "fg": "#ffffff"
+        },
+        {
+          "floor": 1,
+          "side": "N",
+          "text": "안동 푸른한우",
+          "sub": "T.842-7979",
+          "bg": "#221e1d",
+          "fg": "#ffffff"
+        },
+        {
+          "floor": 1,
+          "side": "N",
+          "text": "코사마트",
+          "sub": "나들가게 코사마트 현진3차점 T.857-8989",
+          "bg": "#ffffff",
+          "fg": "#d62828"
+        }
+      ],
+      "bestPano": "M42_EaujaIY00QvUDmpemQ",
+      "bestBearing": 143.0,
+      "verified": true,
+      "note": "현진에버빌3차 단지 북측 가로변을 따라 길게 뻗은 1층 연도형 상가동(갈색 벽돌 외장, 동측 일부 경사지붕 및 전체 평지붕 파라펫, 녹색 어닝 다수). 동→서 순서로 라임 미용실, 백양세탁소, GAMJA(24시 무인카페), Dress shop 8月, 빨간 떡보끼, 안동 푸른한우, 나들가게 코사마트 현진3차점 입점."
+    }
+  }
+}

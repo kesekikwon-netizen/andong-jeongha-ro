@@ -1,0 +1,14 @@
+# Rojo
+/*.rbxl
+/*.rbxlx
+/*.rbxm
+/*.rbxmx
+/sourcemap.json
+
+# 도구 캐시 및 임시 캡처/크롭
+/.rojo/
+/.playwright-mcp/
+/data/tmp/
+/data/captures/
+/__pycache__/
+*.pyc

@@ -1,0 +1,356 @@
+{
+  "metadata": {
+    "reportId": "roadview_full_audit",
+    "date": "2026-10-24",
+    "target": "안동강남초등학교 (경상북도 안동시 강남1길 78 / 정하동 272-1학) 및 주변 강남1길 가로경관",
+    "inspectedImages": [
+      {
+        "path": "C:\\Users\\권을\\AppData\\Local\\Temp\\opencode-browser-SzNpcR\\0\\screenshot.jpeg",
+        "panoId": "DlPs12G8z5Yxtle6UuL7Ug",
+        "yawDeg": -90,
+        "captureDate": "2026-04",
+        "description": "Main Gate looking due West (-90 deg) from 강남1길 directly in front of the South Gatepost"
+      },
+      {
+        "path": "C:\\Users\\권을\\AppData\\Local\\Temp\\opencode-browser-AJ3yk4\\0\\screenshot.jpeg",
+        "panoId": "DinCYGB6-nThfrMXe6v1VQ",
+        "yawDeg": -130,
+        "captureDate": "2026-04",
+        "description": "Main Gate looking WSW (-130 deg) from 강남1길 slightly northeast of the North Gatepost, showing both gateposts and the accordion gate"
+      },
+      {
+        "path": "C:\\Users\\권을\\Documents\\ro\\.playwright-mcp\\page-2026-10-23T12-00-04-602Z.png",
+        "panoId": "DlPs12G8z5Yxtle6UuL7Ug",
+        "yawDeg": -90,
+        "captureDate": "2026-04",
+        "description": "Wide viewport capture of Main Gate looking West (-90 deg), including the south notice board, blue-trimmed annex shed, overhead utility cables, and full school skyline"
+      },
+      {
+        "path": "C:\\Users\\권을\\Documents\\ro\\.playwright-mcp\\page-2026-10-23T11-52-02-241Z.png",
+        "panoId": "south_gangnam1gil_taekwondo",
+        "captureDate": "2026-04",
+        "description": "Roadview on southern 강남1길 branch (in front of 강남1길 88-17 정상태권도) looking West with Naver Roadview intro modal overlay"
+      },
+      {
+        "path": "C:\\Users\\권을\\Documents\\ro\\.playwright-mcp\\page-2026-10-23T11-52-50-259Z.png",
+        "panoId": "south_gangnam1gil_taekwondo",
+        "captureDate": "2026-04",
+        "description": "Unobstructed Roadview on southern 강남1길 branch (in front of 강남1길 88-17 정상태권도) looking West toward Heritage Town (103동)"
+      },
+      {
+        "path": "C:\\Users\\권을\\Documents\\ro\\.playwright-mcp\\page-2026-10-23T11-51-28-975Z.png",
+        "description": "Naver Map vector view + mini Roadview preview showing 강남마루, 병설유치원, and southern 강남1길 88-*/98-* shophouse POIs"
+      },
+      {
+        "path": "C:\\Users\\권을\\Documents\\ro\\.playwright-mcp\\page-2026-10-23T11-41-48-844Z.png",
+        "description": "Naver Map satellite view showing school campus, canopies, and eastern/southern 강남1길 commercial buildings"
+      }
+    ]
+  },
+  "1_mainGateAndEntranceStructures": {
+    "gatePosts": {
+      "materialAndStyle": "Heavy rusticated light-to-medium grey granite/stone block masonry courses with a smooth central plaque band and a stepped overhanging stone cap cornice",
+      "dimensionsApprox": {
+        "widthM": 1.2,
+        "depthM": 2.6,
+        "heightM": 2.8,
+        "clearOpeningSpanM": 6.8,
+        "outerPostToPostSpanM": 9.6
+      },
+      "leftSouthPost": {
+        "name": "GatePostLeft_South",
+        "worldPosApprox": { "offsetX": 105.3, "offsetZ": 9.2, "rotationY": 6.5 },
+        "innerNorthFaceFeatures": "Small recessed arched niche in the upper-middle stone courses facing the gate opening",
+        "plaquesAndSignsOnEastFace": [
+          {
+            "position": "center",
+            "type": "primary_school_plaque",
+            "text": "안동강남초등학교",
+            "style": "Black rectangular stone/metal plaque with single-line white serif/brush Korean lettering (corrects earlier rough note that misread it as 안동강남유치원)"
+          },
+          {
+            "position": "upper_center_below_cornice",
+            "type": "road_address_plate",
+            "text": "78 (강남1길 78)",
+            "style": "Standard Korean blue pentagon/shield building number plate (도로명주소 건물번호판)"
+          },
+          {
+            "position": "left_side",
+            "type": "regulatory_notice_signs",
+            "style": "Two vertically stacked white rectangular notice plates (top: white plate with orange header band; bottom: smaller white smoke-free/school-zone notice plate)"
+          },
+          {
+            "position": "right_side",
+            "type": "security_and_warning_signs",
+            "text": "에스원 (SECOM) / 외부인 출입 통제 안내문",
+            "style": "Red-and-white SECOM (에스원) security plate mounted above a bright yellow vertical rectangular warning notice"
+          }
+        ]
+      },
+      "rightNorthPost": {
+        "name": "GatePostRight_North",
+        "worldPosApprox": { "offsetX": 104.4, "offsetZ": 0.0, "rotationY": 6.5 },
+        "plaquesAndSignsOnEastFace": [
+          {
+            "position": "center",
+            "type": "combined_school_and_kindergarten_plaque",
+            "text": "안동강남초등학교 / 병 설 유 치 원",
+            "style": "Black horizontal rectangular plaque with 2 lines of white lettering and a circular white/silver school emblem (교표) attached on the left border of the plaque"
+          }
+        ]
+      }
+    },
+    "solarAndCctvTrusses": {
+      "location": "Mounted directly atop the flat stone cap of the Left (South) Gatepost (GatePostLeft_South)",
+      "structures": [
+        {
+          "name": "SouthLowerSolarAndLedTruss",
+          "positionOnCap": "South/left side of the South Gatepost cap",
+          "heightAbovePostM": 1.8,
+          "components": [
+            "Vertical silver stainless-steel ladder truss post",
+            "Tilted rectangular solar photovoltaic panel on top (facing south/upward)",
+            "Black vertical rectangular LED electronic display screen (전광판) mounted on the lower front/south face of the truss just above the stone cornice"
+          ]
+        },
+        {
+          "name": "NorthTallerSolarAndCctvTruss",
+          "positionOnCap": "North/right side of the South Gatepost cap",
+          "heightAbovePostM": 2.6,
+          "components": [
+            "Tall twin-upright silver stainless-steel ladder truss mast",
+            "Larger tilted rectangular solar photovoltaic panel at the top",
+            "White surveillance CCTV camera unit mounted beneath the solar panel"
+          ]
+        }
+      ],
+      "additionalNorthTruss": "A tall vertical silver metal lattice column rises immediately behind the Right (North) Gatepost, supporting the arch canopy frame and overhead wiring"
+    },
+    "accordionGate": {
+      "name": "AccordionGate",
+      "worldPosApprox": { "offsetX": 104.8, "offsetZ": 4.7, "rotationY": 6.5 },
+      "spanM": 6.6,
+      "heightM": 1.6,
+      "appearance": "Retractable stainless-steel/silver scissor-lattice folding gate (접이식 자바라 대문) with rounded arch loops along the top rail, red reflective warning strips near the upper verticals, and caster wheels on the paved threshold"
+    },
+    "securityBooth_BaeumteoJikimisil": {
+      "name": "배움터 지킴이실 (School Security / Guard Booth)",
+      "location": "Inside the campus immediately behind/northwest of the Right (North) Gatepost, sheltered beneath the southern bay of the orange/brown arch canopy (approx. offsetX: 100.5, offsetZ: -1.5)",
+      "correctionNote": "Located on the RIGHT (North) side inside the main gate, not on the left (south) side",
+      "structureAndColors": {
+        "type": "1-story rectangular prefabricated guard booth",
+        "wallColor": "Warm cream / light yellow-beige panels",
+        "windows": "White-framed sliding observation windows on the south and east faces",
+        "signboard": {
+          "position": "Mounted on the south-facing roof fascia directly above the booth window",
+          "upperBanner": "Yellow arched top band with green/dark lettering '안동강남초등학교'",
+          "lowerBanner": "Dark brown/black horizontal bar with bold yellow/white lettering '배움터 지킴이실'"
+        }
+      }
+    },
+    "orangeBrownArchCanopy": {
+      "name": "WoodArchCanopyWalkway / EastGateEntryCanopy",
+      "location": "Begins immediately behind the Right (North) Gatepost over the 배움터 지킴이실 booth and extends northward along the east walkway to the SE corner of the 4-story North Wing",
+      "structureAndColors": {
+        "columns": "Reddish-brown / terracotta-painted steel vertical support posts",
+        "roofTrusses": "Curved brown/grey steel arch ribs with circular web cutouts (원형 타공 철골 아치 프레임)",
+        "roofCover": "Translucent orange/amber-tinted polycarbonate barrel-vault canopy panels (주황/황토빛 반투명 아치형 지붕)"
+      }
+    },
+    "noticeBoardsAndSouthGateSide": {
+      "freestandingNoticeBoard": {
+        "name": "WaitingShelter / SchoolNoticeBoard",
+        "location": "Immediately left (south) of the Left (South) Gatepost in front of the white picket perimeter fence (approx. offsetX: 103.5, offsetZ: 12.5)",
+        "appearance": "3-bay glass-encased outdoor bulletin board (3면 유리 게시판) with dark bronze/brown metal framing, a pitched dark-brown overhang roof with a circular school emblem in the center of the fascia, containing a '도로명주소 안내도' map and school posters"
+      },
+      "perimeterFenceSouthOfGate": "White vertical metal picket fence (~1.8m tall) behind the notice board",
+      "blueTrimmedAnnexShed": {
+        "name": "EastBlueRoofAnnex",
+        "location": "Just south of the freestanding notice board (approx. offsetX: 102.8, offsetZ: 25.0)",
+        "appearance": "1-story light-grey horizontal corrugated-siding utility/storage shed with a bright blue roof fascia band and an open bay facing east/north"
+      }
+    }
+  },
+  "2_gangnamMaruGym_SouthAnnex": {
+    "name": "강남마루 (SouthAnnex — 체육관·병설유치원·급식동)",
+    "vworldId": "4717014000102720001050514",
+    "worldPosApprox": {
+      "offsetX": 10.71,
+      "offsetZ": 32.92,
+      "widthM": 20.6,
+      "depthM": 29.5,
+      "heightM": 8.4,
+      "rotationY": 5.31
+    },
+    "visibilityInRoadview": "Visible in the background left (looking due West -90 deg from DlPs12G8z5Yxtle6UuL7Ug) across the sandy playground, directly behind the Left (South) Gatepost solar trusses and south of the 4-story red-brick West Wing",
+    "facadeColors": {
+      "roofCorniceBand": "Dark charcoal / slate-grey horizontal roof fascia band with a slightly stepped-up central/southern parapet",
+      "upperFacadeWall": "Light cool grey / off-white smooth cladding panel band across the upper half",
+      "middleLowerAccentFrame": "Warm terracotta / burnt orange-brown (주황갈색) stepped geometric wall cladding framing the lower-middle window zone",
+      "windows": "Horizontal ribbon of dark-tinted rectangular gym/clerestory windows with white/silver frames set into both the upper light-grey band and the terracotta-framed zone"
+    },
+    "signPositionAndStyle": {
+      "text": "강남마루",
+      "position": "Upper-right (northern) bay of the East facade (facing the playground and East Main Gate), mounted on the light-grey upper wall band just below the dark charcoal roof fascia and adjacent to the southern end of the red-brick West Wing",
+      "style": "Horizontal individual dimensional channel letters ('강 남 마 루') in a warm yellow-gold / light tan tone"
+    }
+  },
+  "3_backgroundApartmentGableWalls": {
+    "complexName": "석미한아름아파트 (Seokmi Hanareum Apartments, west of the school across SchoolWest road)",
+    "viewContext": "When looking due West (-90 deg) from the East Main Gate (DlPs12G8z5Yxtle6UuL7Ug), three high-rise apartment towers (~15–20 stories) rise above the school skyline from left (south-west) to right (north-west), each featuring a pastel-colored east gable wall with '석미' box logo and two-line English branding text",
+    "towersLeftToRight": [
+      {
+        "orderLeftToRight": 1,
+        "brandingText": "Heritage Town",
+        "logoAboveText": "석미",
+        "buildingDong": "석미한아름아파트 103동 (SW of school)",
+        "visualPosition": "Far left of the main gate view (rising behind 강남마루 / SouthAnnex); also appears directly ahead at the west end of southern 강남1길 in page-2026-10-23T11-52-50-259Z.png",
+        "gableWallColors": {
+          "primaryBand": "Light sky blue / pastel ice blue (연청색 / 하늘색) wide vertical center-left band on the east gable wall",
+          " trimAndEdges": "White outer wall strips with a grey-blue peaked gable roof cap",
+          "textColor": "Medium grey / slate blue-grey ('Heritage' on line 1, 'Town' on line 2) in the upper third of the light-blue wall"
+        }
+      },
+      {
+        "orderLeftToRight": 2,
+        "brandingText": "Beautiful People",
+        "logoAboveText": "석미",
+        "buildingDong": "석미한아름아파트 102동 (W of school)",
+        "visualPosition": "Center-left of the main gate view, rising in the gap between 강남마루 (SouthAnnex) and the 4-story red-brick main school building (with a distant red-and-white lattice telecom tower visible between Heritage Town and Beautiful People)",
+        "gableWallColors": {
+          "primaryBand": "Pastel pink / rose pink (연분홍색 / 핑크색) vertical band on the right/center of the east gable wall, paired with a very pale pink/off-white strip on the left side",
+          "trimAndEdges": "Dark grey/brown thin roof cap trim",
+          "textColor": "Dark charcoal grey ('Beautiful' on line 1, 'People' on line 2) in the upper third of the gable wall"
+        }
+      },
+      {
+        "orderLeftToRight": 3,
+        "brandingText": "Wellbeing Life",
+        "logoAboveText": "석미",
+        "buildingDong": "석미한아름아파트 101동 (NW of school)",
+        "visualPosition": "Center-right of the main gate view, rising above the central section of the 4-story red-brick North Wing",
+        "gableWallColors": {
+          "primaryBand": "Light mint green / pastel sage green (연녹색 / 민트그린) vertical band on the east gable wall",
+          "secondaryAccent": "Pastel pink/coral vertical strip along the right (northern) edge of the gable wall and small pink pediment accents along the apartment roofline",
+          "textColor": "Dark charcoal grey ('Wellbeing' on line 1, 'Life' on line 2) in the upper third of the light-green wall"
+        }
+      }
+    ],
+    "additionalBackgroundTowers": [
+      {
+        "direction": "WSW / SW (far left in DinCYGB6-nThfrMXe6v1VQ and page-2026-10-23T12-00-04-602Z.png)",
+        "description": "High-rise white/light-grey apartment towers with green stylized brand graphic on the upper side wall, plus a lower red/brown brick church building with a red cross spire in the SW foreground"
+      },
+      {
+        "direction": "NNW (far right above the eastern end of NorthWing)",
+        "description": "Upper floors and pink-pediment roofline of the northern apartment block (현진에버빌 / 석미한아름 북동측 동) peeking above the 4-story school roof"
+      }
+    ]
+  },
+  "4_surroundingGangnam1GilShophousesAndRoads": {
+    "southGangnam1Gil_SchoolSouth": {
+      "roadContext": "East-west branch of 강남1길 running along the southern perimeter fence of the school (between the school south fence and the 88-* shophouse row)",
+      "featuredShophouse_88_17": {
+        "address": "강남1길 88-17",
+        "businessName": "정상태권도 (경희대석사 정상태권도)",
+        "floors": 2,
+        "facadeArchitecture": {
+          "firstFloor": "Dark brown horizontal wood-slat cladding (진갈색 목재 외벽), double glass entrance doors, raised timber deck with low wooden balustrade railing along the sidewalk, and small plastic children's chairs outside",
+          "secondFloor": "Blue-tinted reflective glass curtain wall (4 columns x 3 rows of panes) framed by medium-grey stone-tile piers and spandrel bands",
+          "roof": "Flat roof with dark grey metal coping and small solar/antenna frame at the NW corner"
+        },
+        "signsAndBanners": [
+          {
+            "location": "2F blue glass curtain wall",
+            "text": "정상 / 태권도",
+            "style": "Large bold red Korean characters with white outlines and crackled brushstroke texture pasted across the window panes"
+          },
+          {
+            "location": "2F NW corner stone pier",
+            "text": "경희대석사 / 그곳에 가고싶다! / 정상태권도",
+            "style": "Vertical white 3D channel letters arranged in two main columns with smaller vertical slogan text in the middle"
+          },
+          {
+            "location": "Above 1F entrance door",
+            "text": "참교육의 목소리 / 841-3456",
+            "style": "Purple rectangular signboard with yellow slogan text and large white phone number"
+          },
+          {
+            "location": "1F wall and wooden railing",
+            "text": "은상 상금 1,000,000원 / 금상 상금 4,000,000원 / 어린이 보호차량 안내",
+            "style": "Two white/red promotional posters to the left of the door and a yellow vertical banner on the wooden railing"
+          }
+        ]
+      },
+      "adjacentWestShophouse_88_21": {
+        "address": "강남1길 88-21",
+        "appearance": "1-story commercial building immediately west of 정상태권도, featuring a dark charcoal pitched roof overhang, dark-framed storefront windows, and a small white/red sign at the western corner"
+      },
+      "southBlockPoiSequence": {
+        "northRowFacingSchool_WestToEast": [
+          "강남1길 88-21",
+          "강남1길 88-17 (정상태권도)",
+          "강남1길 88-15",
+          "강남1길 88-13 (멘토링 과학)",
+          "강남1길 88-7",
+          "비바체 음악학원",
+          "강남1길 88-3 (명성미술교습소)"
+        ],
+        "southRowFacingSouthLane_WestToEast": [
+          "강남1길 98-24 (차수학 정하캠퍼스)",
+          "강남1길 98-22",
+          "강남1길 98-18 (노아 카페)",
+          "강남1길 98-16 (달항아리 음식점)",
+          "강남1길 98-14",
+          "강남1길 98-12",
+          "강남1길 98-10 (타코비)",
+          "강남1길 98-6 (BHC치킨)"
+        ]
+      }
+    },
+    "eastGangnam1Gil_SchoolEast": {
+      "roadContext": "Primary north-south 강남1길 road running directly in front of the East Main Gate",
+      "eastSideShophousePois_NorthToSouth": [
+        {
+          "zone": "North of 강남6길 intersection",
+          "pois": [
+            "강남1길 67 (강남왕족발, 권민성수학)",
+            "강남6길 5 (정하우리약국)"
+          ]
+        },
+        {
+          "zone": "Between 강남6길 and 강남7길 (directly opposite the East Main Gate)",
+          "pois": [
+            "강남1길 75 (다이클로 / 클레버 사이언스 과학 — orange/terracotta roof in satellite)",
+            "푸르넷공부방 (directly opposite the North Gatepost — reddish-brown roof in satellite)",
+            "강남1길 81 (멜로우블랙 카페 / 모모뷰티 — directly opposite the South Gatepost)",
+            "강남1길 83 (비너스헤어샵 — grey roof in satellite)",
+            "강남7길 1 / 5 (모니카 영어교습소 — at the north corner of 강남7길)"
+          ]
+        },
+        {
+          "zone": "South of 강남7길 intersection",
+          "pois": [
+            "샘틀방앗간 / 김은영어",
+            "강남1길 95 (세븐일레븐 / 현명한 국어학원)"
+          ]
+        }
+      ]
+    },
+    "roadMarkingsAndStreetscape": {
+      "eastRoadInFrontOfMainGate": {
+        "surface": "Medium-dark grey asphalt roadway (~8.0–8.5m wide) merging smoothly into a wide paved gate apron on the west side",
+        "centerLine": "Slightly faded double solid yellow center line (황색 복선 중앙선) running north-south along 강남1길",
+        "crosswalks": "White zebra crosswalks located north of the main gate (near 다이클로/푸르넷공부방) and south of the gate (at the 강남7길 / SchoolSouth intersections)",
+        "overheadUtilities": "Multiple black overhead power and telecom cables running parallel to 강남1길 across the upper sky"
+      },
+      "southRoadInFrontOfTaekwondo": {
+        "surface": "Two-lane grey asphalt street (~6.0m carriageway) sloping gently",
+        "centerLine": "Clear double solid yellow center line (황색 실선 중앙선 2줄)",
+        "edgeLine": "Solid white edge line (백색 길가장자리 구역선) along the southern curb in front of 정상태권도",
+        "trafficCalmingAndSigns": "Yellow-and-white chevron-striped speed bump / raised crosswalk ahead near the SW corner of the school, paired with a blue '어린이보호구역' (School Zone) post sign and overhead yellow flashing signal arm",
+        "schoolSouthBoundary": "Low stone/concrete retaining wall topped by a green metal mesh fence and a dense row of pine trees (소나무) along the north side of the road, with cars and a white box truck parked along the curb"
+      }
+    }
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "id": "ISSUE-002",
+  "date": "2026-10-24",
+  "kit": "Shophouse",
+  "blockId": "shop-s01~s07 / VWorldBlocks",
+  "pano": "VCG2y6dRai1s7AOF00qrDg",
+  "found": "강남1길 상가: 검은 석재 파사드 + 통유리 + 세로 간판 + 어닝 프레임 + 양면 간판 및 외벽 색상 다양성 부족",
+  "fix": "Shophouse.luau에 FNV-1a 해시 기반 4종 외장(베이지 석재/다크 슬레이트/적벽돌/그레이 스터코), 5종 간판 색상, 양면 통유리·석재 파사드·어닝·간판, 세로 간판, 층간 코니스, 옥상 실외기 반영 완료",
+  "status": "fixed"
+}

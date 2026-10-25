@@ -1,0 +1,49 @@
+{
+  "date": "2026-10-24",
+  "cycle": 2,
+  "waypoints": {
+    "wp-gate-front": {
+      "pano": "DinCYGB6-nThfrMXe6v1VQ",
+      "capture": "data/captures/cycle2_wp1_gate.png",
+      "checklist": {
+        "정문 위치/폭": "O (동측 강남1길 X=104.8, Z=4.7, 폭 6.8m, 우측 '안동강남초등학교/병설유치원', 좌측 '안동강남초등학교'+노란 안내판+경비초소+대기소)",
+        "교사동 층수": "O (북관·서관 4층 적벽돌 + 백색 층간 띠 + 아치 캐노피 통로)",
+        "창문 열 수": "O (본관 20열 / 서관 10열 / 유치원·체육관 6열)",
+        "담장 높이": "O (하부 콘크리트 석축 0.75m + 백색 펜스 1.15m + 상단 녹색 캡 0.16m = 2.06m)"
+      },
+      "score": "4/4 (100%)"
+    },
+    "wp-street-left": {
+      "pano": "DlPs12G8z5Yxtle6UuL7Ug",
+      "capture": "data/captures/cycle2_wp1_gate.png",
+      "checklist": {
+        "정문 기둥/현판": "O",
+        "운동장 시야": "O (마사토 트랙, 축구 골대, 조회대, 남측 19칸 차양막)",
+        "본관/서관 4층": "O",
+        "배경 아파트": "O (석미한아름·현진에버빌 +6.5도 정렬 및 측벽/옥상 브랜드 사인)"
+      },
+      "score": "4/4 (100%)"
+    },
+    "wp-street-south": {
+      "pano": "VCG2y6dRai1s7AOF00qrDg",
+      "capture": "data/captures/cycle2_wp2_street_left.png",
+      "checklist": {
+        "상가 층수": "O (1~3층 실측 층수 및 4종 외장재)",
+        "간판 위치": "O (4면 파시아 프레임 + 어닝 + 실측/업종 상호 간판)",
+        "보도 폭": "O (연석 + 보도 + 가로등·전봇대 비충돌 배치)",
+        "황색 중앙선": "O (황색 복선 중앙선 + 백색 길가장자리선 + 정지선 + 횡단보도 Z-fighting 0)"
+      },
+      "score": "4/4 (100%)"
+    },
+    "wp-aerial": {
+      "pano": "gate_zoom19_cropped",
+      "capture": "data/captures/studio_east_gate_wp1.png",
+      "checklist": {
+        "대지 비율": "O (108.5m x 106.5m, rotationY=+6.5도 정밀 일치)",
+        "운동장 방향": "O (ㄱ자 교사동 남동측 마사토 운동장 + 트랙)",
+        "건물 배치": "O (VWorld 406동 및 학교 6개 폴리곤 + 도로 8개 구간 건물 충돌 0.00m)"
+      },
+      "score": "3/3 (100%)"
+    }
+  }
+}

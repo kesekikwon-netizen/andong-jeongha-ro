@@ -1,0 +1,448 @@
+{
+  "강남1길 55": {
+    "floors": 3,
+    "style": "gray_stucco",
+    "roofType": "flat",
+    "signs": [
+      {
+        "floor": 1,
+        "text": "세종 공인중개사 사무소",
+        "bg": [25, 55, 135],
+        "fg": [245, 245, 250]
+      },
+      {
+        "floor": 1,
+        "text": "라온.",
+        "bg": [95, 95, 100],
+        "fg": [30, 25, 25]
+      }
+    ],
+    "piloti": false,
+    "storefront": true,
+    "awningColor": [40, 40, 45],
+    "balcony": false,
+    "stoneFascia": true,
+    "deck": false,
+    "notes": "Verified via panos afYrq3H7Wt5xqfLWijuf_A & grkR3cBqcdrrq_RCopeUzg (blue address plate 55 on right entrance pillar). 3F modern gray stone-tile/stucco commercial-residential building with flat roof. 1F left has '라온.' boutique (red doorframe, black-and-white striped awning); 1F center/right has '세종 공인중개사 사무소 T.854-3377'."
+  },
+  "강남1길 57": {
+    "floors": 3,
+    "style": "gray_stucco",
+    "roofType": "flat",
+    "signs": [
+      {
+        "floor": 1,
+        "text": "비어오크 858-5005",
+        "bg": [215, 215, 218],
+        "fg": [195, 35, 35]
+      },
+      {
+        "floor": 1,
+        "text": "BEER OAK",
+        "bg": [30, 30, 35],
+        "fg": [245, 245, 245]
+      }
+    ],
+    "piloti": false,
+    "storefront": true,
+    "awningColor": null,
+    "balcony": true,
+    "stoneFascia": true,
+    "deck": false,
+    "notes": "Verified via panos tlwaV44JVMkiPqcfpkSOcQ & 2z304DNrKnojgUljfIXxXQ. 3F light-gray stone/stucco building with flat roof and 3F metal balcony rail. 1F corner pub '비어오크 858-5005' (BEER OAK) with red channel letters on gray stone fascia and dark-framed glass storefront."
+  },
+  "강남1길 67": {
+    "floors": 3,
+    "style": "beige_stone",
+    "roofType": "flat",
+    "signs": [
+      {
+        "floor": 1,
+        "text": "T",
+        "bg": [245, 245, 248],
+        "fg": [35, 85, 185]
+      },
+      {
+        "floor": 2,
+        "text": "초중고 수학전문 권민성수학",
+        "bg": [240, 240, 245],
+        "fg": [30, 60, 140]
+      }
+    ],
+    "piloti": false,
+    "storefront": true,
+    "awningColor": null,
+    "balcony": false,
+    "stoneFascia": true,
+    "deck": false,
+    "notes": "Verified via pano 2RtXEmBuaSyINTORGnbytA (blue address plate 67 on SW pillar). 3F beige stone-cladded commercial building with flat roof. 1F has white SK Telecom 'T' fascia sign wrapping the corner; 2F windows have '초중고 수학전문 권민성수학' decals."
+  },
+  "강남1길 69": {
+    "floors": 3,
+    "style": "beige_stone",
+    "roofType": "flat",
+    "signs": [
+      {
+        "floor": 1,
+        "text": "강남미래의원",
+        "bg": [35, 42, 68],
+        "fg": [235, 240, 245]
+      },
+      {
+        "floor": 1,
+        "text": "정하 우리약국",
+        "bg": [215, 175, 35],
+        "fg": [235, 240, 245]
+      }
+    ],
+    "piloti": false,
+    "storefront": true,
+    "awningColor": [45, 50, 55],
+    "balcony": false,
+    "stoneFascia": true,
+    "deck": false,
+    "notes": "Verified via panos DyGVLZoE4i_hn4h38-an4w & zGy9evfvuWonMrAt8jNX_A (blue address plate 69 at main clinic entrance). 3F beige stone building with recessed vertical window bays and flat roof. 1F houses '강남미래의원' (소아과·이비인후과·내과·피부과) with dark navy fascia and '정하 우리약국' on the south corner wing."
+  },
+  "강남1길 72": {
+    "floors": 4,
+    "style": "elementary_school",
+    "roofType": "school_hip",
+    "signs": [
+      {
+        "floor": 1,
+        "text": "안동강남초등학교",
+        "bg": [235, 235, 235],
+        "fg": [40, 40, 45]
+      }
+    ],
+    "piloti": false,
+    "storefront": false,
+    "awningColor": null,
+    "balcony": false,
+    "stoneFascia": false,
+    "deck": false,
+    "notes": "Verified via panos 6je_Y4hRJMGPjlwLWy5AuQ & wumDEtUx12CIbo32Xn7H3A. Andong Gangnam Elementary School (안동강남초등학교) main 4F building with red-brick and cream/white facade and blue-grey hipped roof."
+  },
+  "강남1길 75": {
+    "floors": 3,
+    "style": "beige_stone",
+    "roofType": "flat",
+    "signs": [
+      {
+        "floor": 1,
+        "text": "DAICLO 다이클로 안동강남점",
+        "bg": [242, 242, 245],
+        "fg": [25, 25, 30]
+      },
+      {
+        "floor": 2,
+        "text": "지앤미 에스테틱",
+        "bg": [35, 35, 40],
+        "fg": [165, 215, 155]
+      }
+    ],
+    "piloti": true,
+    "storefront": true,
+    "awningColor": null,
+    "balcony": false,
+    "stoneFascia": true,
+    "deck": false,
+    "notes": "Verified via panos 6je_Y4hRJMGPjlwLWy5AuQ & wumDEtUx12CIbo32Xn7H3A. 3F beige stone building with flat roof and right-side piloti driveway passage. 1F has large white 'DAICLO 함께 사면 더 좋은 우리 가게 다이클로 안동강남점' sign; 2F has dark fascia '지앤미 에스테틱'."
+  },
+  "강남1길 77": {
+    "floors": 1,
+    "style": "white_stucco",
+    "roofType": "gable_red",
+    "signs": [
+      {
+        "floor": 1,
+        "text": "Lucy's Englishbuddy",
+        "bg": [240, 242, 245],
+        "fg": [40, 45, 110]
+      },
+      {
+        "floor": 1,
+        "text": "푸르넷 & 잉글리시버디",
+        "bg": [15, 115, 85],
+        "fg": [245, 245, 245]
+      }
+    ],
+    "piloti": false,
+    "storefront": true,
+    "awningColor": [15, 115, 85],
+    "balcony": false,
+    "stoneFascia": false,
+    "deck": true,
+    "notes": "Verified via panos DinCYGB6-nThfrMXe6v1VQ & DlPs12G8z5Yxtle6UuL7Ug (blue address plate 77 on right pillar). 1F white stucco house-style academy with pitched red-brown shingle roof (gable_red), front steps/wooden rail on left, and green awning '푸르넷 & 잉글리시버디' / 'bd Lucy's Englishbuddy'."
+  },
+  "강남1길 81": {
+    "floors": 3,
+    "style": "dark_slate",
+    "roofType": "flat",
+    "signs": [
+      {
+        "floor": 1,
+        "text": "Mellow Black COFFEE",
+        "bg": [205, 175, 65],
+        "fg": [60, 50, 35]
+      },
+      {
+        "floor": 2,
+        "text": "눈높이 예스클래스",
+        "bg": [210, 30, 45],
+        "fg": [245, 245, 245]
+      }
+    ],
+    "piloti": false,
+    "storefront": true,
+    "awningColor": null,
+    "balcony": false,
+    "stoneFascia": true,
+    "deck": false,
+    "notes": "Verified via panos DlPs12G8z5Yxtle6UuL7Ug & sDS3Ow-5GpP-TmD8DvsqKw (blue address plate 81 on left pillar). 3F dark charcoal/slate tile building with flat roof. 1F has yellow signboard 'Mellow Black COFFEE'; 2F has '눈높이 예스클래스' channel letters and 5 red/white DAEKYO window signs."
+  },
+  "강남1길 83": {
+    "floors": 1,
+    "style": "white_stucco",
+    "roofType": "flat",
+    "signs": [
+      {
+        "floor": 1,
+        "text": "강남피아노클래스",
+        "bg": [235, 238, 240],
+        "fg": [35, 35, 40]
+      },
+      {
+        "floor": 1,
+        "text": "안동점",
+        "bg": [242, 238, 230],
+        "fg": [155, 35, 35]
+      }
+    ],
+    "piloti": false,
+    "storefront": true,
+    "awningColor": [225, 190, 45],
+    "balcony": false,
+    "stoneFascia": false,
+    "deck": false,
+    "notes": "Verified via panos sDS3Ow-5GpP-TmD8DvsqKw & 8GdGWgbvT79AbXTuYFrr7Q (blue address plate 83 on bottom right). 1F white commercial building with flat roof, yellow window frames on right with yellow-and-grey striped awning ('안동점' oval sign), and '강남피아노클래스' in the center bay."
+  },
+  "강남1길 95": {
+    "floors": 3,
+    "style": "beige_stone",
+    "roofType": "flat",
+    "signs": [
+      {
+        "floor": 1,
+        "text": "7-ELEVEN",
+        "bg": [245, 245, 245],
+        "fg": [20, 125, 75]
+      },
+      {
+        "floor": 2,
+        "text": "A+ 에이원영어",
+        "bg": [245, 245, 248],
+        "fg": [25, 35, 95]
+      }
+    ],
+    "piloti": false,
+    "storefront": true,
+    "awningColor": [15, 95, 65],
+    "balcony": true,
+    "stoneFascia": true,
+    "deck": false,
+    "notes": "Verified via panos XlbOlouBqH0pfSMcaxCt6w & 4noeitrhWmtMGwLDtc4ICg. 3F beige stone corner building with flat roof and top terrace railing. 1F corner has '7-ELEVEN' convenience store with green awning; 1F/2F has 'A+ 에이원영어' signboard and yellow 2F window signage."
+  },
+  "강남1길 96": {
+    "floors": 3,
+    "style": "gray_stucco",
+    "roofType": "flat",
+    "signs": [
+      {
+        "floor": 1,
+        "text": "bhc CHICKEN 정하점 841-9982",
+        "bg": [245, 245, 248],
+        "fg": [235, 155, 35]
+      },
+      {
+        "floor": 1,
+        "text": "해질녘 T.854-4003",
+        "bg": [225, 220, 220],
+        "fg": [165, 35, 45]
+      },
+      {
+        "floor": 2,
+        "text": "이지 미용실 843-9901",
+        "bg": [215, 85, 45],
+        "fg": [240, 240, 240]
+      }
+    ],
+    "piloti": false,
+    "storefront": true,
+    "awningColor": [95, 65, 55],
+    "balcony": false,
+    "stoneFascia": true,
+    "deck": false,
+    "notes": "Verified via panos XlbOlouBqH0pfSMcaxCt6w & 8_KJij7FoS6VvEVm-OBGMg (blue address plate 96 on SE corner pillar). 3F light-gray stone/stucco corner building with flat roof. 1F right has 'bhc CHICKEN 정하점' with brown awning; 1F left has '해질녘 (해질녘엔 한잔어때?)'; 2F has orange/charcoal '이지 미용실' sign."
+  },
+  "강남1길 101": {
+    "floors": 4,
+    "style": "gray_stucco",
+    "roofType": "flat",
+    "signs": [
+      {
+        "floor": 1,
+        "text": "현명한 국어 854-0078",
+        "bg": [240, 200, 45],
+        "fg": [30, 30, 30]
+      },
+      {
+        "floor": 1,
+        "text": "드림 부동산 T.853-8272",
+        "bg": [245, 245, 248],
+        "fg": [30, 30, 35]
+      },
+      {
+        "floor": 1,
+        "text": "OSO Aesthetic & Headspa",
+        "bg": [245, 245, 245],
+        "fg": [45, 45, 50]
+      },
+      {
+        "floor": 2,
+        "text": "생각하는 국어전문",
+        "bg": [35, 45, 55],
+        "fg": [245, 245, 245]
+      }
+    ],
+    "piloti": true,
+    "storefront": true,
+    "awningColor": [175, 55, 75],
+    "balcony": false,
+    "stoneFascia": true,
+    "deck": false,
+    "notes": "Verified via pano 4f73uObjbSZLKrK5d6wlVg. 4F light-gray stone/stucco building with flat roof and left-side piloti driveway passage. 1F has yellow '현명한 국어', white '드림 부동산' (with reddish-pink awning), and white 'OSO Aesthetic & Headspa'; 2F has '생각하는 국어전문 / 토론하는아이들'."
+  },
+  "강남1길 105": {
+    "floors": 3,
+    "style": "beige_stone",
+    "roofType": "flat",
+    "signs": [
+      {
+        "floor": 1,
+        "text": "미장원 뜰",
+        "bg": [242, 238, 232],
+        "fg": [65, 55, 50]
+      },
+      {
+        "floor": 1,
+        "text": "백설공주 Nail & Beauty",
+        "bg": [242, 242, 245],
+        "fg": [85, 65, 95]
+      },
+      {
+        "floor": 2,
+        "text": "청담자하연학원 857-8843",
+        "bg": [55, 55, 60],
+        "fg": [245, 225, 50]
+      }
+    ],
+    "piloti": false,
+    "storefront": true,
+    "awningColor": [205, 135, 105],
+    "balcony": true,
+    "stoneFascia": true,
+    "deck": false,
+    "notes": "Verified via pano rSYwnBn6oBEenLETqx_E3g (blue address plate 105 on left wood-slat entrance wall). 3F beige stone building with flat roof and 3F balcony railing. 1F has '미장원 뜰' with peach-terracotta awning and '백설공주 Nail & Beauty' on right wing; 2F has '초·중·고 수학전문 청담자하연학원'."
+  },
+  "강남1길 107": {
+    "floors": 3,
+    "style": "beige_stone",
+    "roofType": "flat",
+    "signs": [
+      {
+        "floor": 1,
+        "text": "명자네 막창시대",
+        "bg": [35, 35, 40],
+        "fg": [215, 45, 35]
+      },
+      {
+        "floor": 1,
+        "text": "샤치 수입잡화 전문점",
+        "bg": [225, 25, 95],
+        "fg": [35, 25, 30]
+      },
+      {
+        "floor": 2,
+        "text": "빠바복싱!",
+        "bg": [25, 75, 175],
+        "fg": [245, 245, 250]
+      }
+    ],
+    "piloti": false,
+    "storefront": true,
+    "awningColor": [95, 70, 60],
+    "balcony": false,
+    "stoneFascia": true,
+    "deck": false,
+    "notes": "Verified via pano Y0DghZSOqMaqgMqgLZkCgg (blue address plate 107 on right pillar). 3F beige stone building with flat roof. 1F left has '명자네 막창시대' with blue awning; 1F right has hot-pink signboard '샤치 (sachi 수입잡화 전문점)' with brown awning; 2F has blue signboard '빠바복싱!'."
+  },
+  "강남1길 109": {
+    "floors": 3,
+    "style": "white_stucco",
+    "roofType": "flat",
+    "signs": [
+      {
+        "floor": 1,
+        "text": "Greco 그레꼬 842-3335",
+        "bg": [230, 65, 115],
+        "fg": [245, 245, 250]
+      },
+      {
+        "floor": 2,
+        "text": "강주희피아노 T.855-2252",
+        "bg": [225, 75, 125],
+        "fg": [245, 245, 250]
+      }
+    ],
+    "piloti": false,
+    "storefront": true,
+    "awningColor": null,
+    "balcony": false,
+    "stoneFascia": true,
+    "deck": true,
+    "notes": "Verified via pano ZryAbn557sxabN9TGTsprA (blue address plate 109 on left pillar next to stairwell). 3F off-white/light-gray stone tile building with tall left stairwell window grid, flat roof, and 1F wooden front deck/railing. 1F has pink signboard 'Greco 그레꼬 Fusion Family ResHOF'; 2F has pink banner '강주희피아노'."
+  },
+  "강남1길 113": {
+    "floors": 3,
+    "style": "beige_stone",
+    "roofType": "flat",
+    "signs": [
+      {
+        "floor": 1,
+        "text": "강한영어",
+        "bg": [242, 238, 235],
+        "fg": [75, 45, 95]
+      },
+      {
+        "floor": 1,
+        "text": "손주연헤어",
+        "bg": [205, 198, 192],
+        "fg": [30, 30, 35]
+      },
+      {
+        "floor": 2,
+        "text": "정수학 MENSA KOREA",
+        "bg": [245, 245, 248],
+        "fg": [205, 55, 50]
+      }
+    ],
+    "piloti": false,
+    "storefront": true,
+    "awningColor": null,
+    "balcony": true,
+    "stoneFascia": true,
+    "deck": false,
+    "notes": "Verified via panos ZryAbn557sxabN9TGTsprA & S5gLlzSrsXd7Q8slrsJs9g (blue address plate 113 on center stone pillar). 3F warm beige/gray stone building with diagonal groove pattern, flat roof, and 3F left iron balcony rail. 1F left has '강한영어 (강영한 원장 직접 강의)'; 1F right has '손주연헤어' channel letters; 2F windows have '정수학 / MENSA KOREA'."
+  }
+}

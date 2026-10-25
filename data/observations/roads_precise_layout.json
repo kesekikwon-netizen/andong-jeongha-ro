@@ -1,0 +1,326 @@
+{
+  "metadata": {
+    "date": "2026-10-24",
+    "sources": [
+      "data/captures/gate_zoom19_cropped.png",
+      "data/captures/school_zoom18_roads.png",
+      "src/shared/Data/VWorldBlocks.luau",
+      "src/shared/Data/Blocks.luau",
+      "src/shared/Data/Streets.luau"
+    ],
+    "coordinateSystem": {
+      "originLat": 36.549777,
+      "originLon": 128.731262,
+      "axes": "+X = East (m), +Z = South (m)",
+      "urbanGridRotationYDeg": 6.5,
+      "tiltedFrameFormula": {
+        "u_eastTilt": "X * cos(6.5 deg) - Z * sin(6.5 deg)",
+        "v_southTilt": "X * sin(6.5 deg) + Z * cos(6.5 deg)",
+        "note": "In Roblox CFrame.Angles(0, math.rad(6.5), 0), local +X maps to (+cos 6.5, 0, -sin 6.5) and local +Z maps to (+sin 6.5, 0, +cos 6.5). Every building row in VWorldBlocks.luau around the school has rotationY ~ +6.5 deg (EW) or -83.5 deg (NS)."
+      }
+    }
+  },
+  "currentStreetsOverlapAudit": {
+    "summary": "All 5 axis-aligned roads currently in src/shared/Data/Streets.luau overlap buildings in VWorldBlocks.luau (19 building collisions total) because the actual urban grid is tilted by +6.5 deg.",
+    "overlapsByRoad": {
+      "SchoolEast": {
+        "currentParams": { "vertical": true, "x": 113, "zCenter": 10, "length": 260, "width": 8, "sidewalk": 2.5 },
+        "worldBoundsWithSidewalk": { "x": [106.5, 119.5], "z": [-120.0, 140.0] },
+        "overlappingBuildings": [
+          { "id": "vw-057-016872", "name": "강남1길 55", "bldgX": [111.8, 123.6], "bldgZ": [-125.9, -107.7], "overlapDX": 7.7, "overlapDZ": 12.3, "severity": "ASPHALT+SIDEWALK" },
+          { "id": "vw-058-016870", "name": "강남1길 57", "bldgX": [113.9, 126.1], "bldgZ": [-105.0, -90.6], "overlapDX": 5.6, "overlapDZ": 14.4, "severity": "ASPHALT+SIDEWALK" },
+          { "id": "vw-059-000001", "name": "강남1길 67", "bldgX": [116.6, 129.2], "bldgZ": [-60.8, -50.2], "overlapDX": 2.9, "overlapDZ": 10.6, "severity": "ASPHALT+SIDEWALK" },
+          { "id": "vw-060-016869", "name": "강남1길 69", "bldgX": [118.3, 132.5], "bldgZ": [-48.3, -32.7], "overlapDX": 1.2, "overlapDZ": 15.5, "severity": "SIDEWALK" },
+          { "id": "vw-312-000001", "name": "강남1길 88-3", "bldgX": [101.4, 115.0], "bldgZ": [56.6, 69.2], "overlapDX": 8.5, "overlapDZ": 12.6, "severity": "ASPHALT+SIDEWALK" },
+          { "id": "vw-066-011862", "name": "강남1길 96", "bldgX": [103.0, 117.4], "bldgZ": [75.4, 89.8], "overlapDX": 10.9, "overlapDZ": 14.4, "severity": "ASPHALT+SIDEWALK" }
+        ]
+      },
+      "SchoolSouth": {
+        "currentParams": { "vertical": false, "z": 57, "xCenter": 56, "length": 128, "width": 8, "sidewalk": 2.2 },
+        "worldBoundsWithSidewalk": { "x": [-8.0, 120.0], "z": [50.8, 63.2] },
+        "overlappingBuildings": [
+          { "id": "vw-312-000001", "name": "강남1길 88-3", "bldgX": [101.4, 115.0], "bldgZ": [56.6, 69.2], "overlapDX": 13.6, "overlapDZ": 6.6, "severity": "ASPHALT+SIDEWALK" },
+          { "id": "vw-313-000001", "name": "강남1길 88-5", "bldgX": [89.1, 101.3], "bldgZ": [58.2, 72.6], "overlapDX": 12.2, "overlapDZ": 5.0, "severity": "ASPHALT+SIDEWALK" },
+          { "id": "vw-314-015315", "name": "강남1길 88-7", "bldgX": [76.1, 89.9], "bldgZ": [60.3, 76.3], "overlapDX": 13.7, "overlapDZ": 2.9, "severity": "ASPHALT+SIDEWALK" }
+        ]
+      },
+      "SchoolNorth": {
+        "currentParams": { "vertical": false, "z": -60, "xCenter": 50, "length": 240, "width": 8, "sidewalk": 2.5 },
+        "worldBoundsWithSidewalk": { "x": [-70.0, 170.0], "z": [-66.5, -53.5] },
+        "overlappingBuildings": [
+          { "id": "vw-219-015332", "name": "근린생활시설", "bldgX": [-83.9, -36.9], "bldgZ": [-81.3, -66.1], "overlapDX": 33.1, "overlapDZ": 0.4, "severity": "SIDEWALK" },
+          { "id": "vw-059-000001", "name": "강남1길 67", "bldgX": [116.6, 129.2], "bldgZ": [-60.8, -50.2], "overlapDX": 12.5, "overlapDZ": 7.3, "severity": "ASPHALT+SIDEWALK" },
+          { "id": "vw-209-015325", "name": "강남5길 61", "bldgX": [130.0, 142.8], "bldgZ": [-66.5, -50.5], "overlapDX": 12.8, "overlapDZ": 13.0, "severity": "ASPHALT+SIDEWALK" },
+          { "id": "vw-207-023023", "name": "강남5길 59", "bldgX": [143.7, 154.9], "bldgZ": [-65.2, -54.4], "overlapDX": 11.2, "overlapDZ": 10.9, "severity": "ASPHALT+SIDEWALK" },
+          { "id": "vw-205-000001", "name": "강남5길 55", "bldgX": [157.0, 172.2], "bldgZ": [-65.9, -54.9], "overlapDX": 13.0, "overlapDZ": 11.1, "severity": "ASPHALT+SIDEWALK" }
+        ]
+      },
+      "SchoolWest": {
+        "currentParams": { "vertical": true, "x": -10, "zCenter": 0, "length": 240, "width": 7, "sidewalk": 2.0 },
+        "worldBoundsWithSidewalk": { "x": [-15.5, -4.5], "z": [-120.0, 120.0] },
+        "overlappingBuildings": [
+          { "id": "vw-215-015876", "name": "현진에버빌", "bldgX": [-9.6, 87.4], "bldgZ": [-106.7, -82.1], "overlapDX": 5.1, "overlapDZ": 24.6, "severity": "ASPHALT+SIDEWALK" },
+          { "id": "vw-223-047324", "name": "석미한아름아파트 103동", "bldgX": [-76.4, -12.6], "bldgZ": [64.7, 85.7], "overlapDX": 2.9, "overlapDZ": 21.0, "severity": "ASPHALT+SIDEWALK" }
+        ]
+      },
+      "SouthLane": {
+        "currentParams": { "vertical": false, "z": 104, "xCenter": 58, "length": 240, "width": 8, "sidewalk": 2.5 },
+        "worldBoundsWithSidewalk": { "x": [-62.0, 178.0], "z": [97.5, 110.5] },
+        "overlappingBuildings": [
+          { "id": "vw-337-011859", "name": "강남1길 98-24", "bldgX": [4.8, 17.2], "bldgZ": [86.3, 100.7], "overlapDX": 12.5, "overlapDZ": 3.2, "severity": "ASPHALT+SIDEWALK" },
+          { "id": "vw-325-012786", "name": "강남1길 98-22", "bldgX": [16.3, 29.5], "bldgZ": [82.8, 100.0], "overlapDX": 13.1, "overlapDZ": 2.5, "severity": "ASPHALT+SIDEWALK" },
+          { "id": "vw-068-014807", "name": "화성드림파크", "bldgX": [124.3, 167.5], "bldgZ": [100.1, 113.7], "overlapDX": 43.2, "overlapDZ": 10.4, "severity": "ASPHALT+SIDEWALK" }
+        ]
+      }
+    }
+  },
+  "roadsTilted": {
+    "description": "Primary recommended layout: 8 tilted road segments (rotationY = +6.5 deg) matching satellite imagery (gate_zoom19_cropped.png, school_zoom18_roads.png) and VWorld building alignments. Verified 0.00m overlap with all 406 VWorldBlocks and 0.00m overlap with school-main (both unrotated and +6.5 deg rotated).",
+    "segments": [
+      {
+        "name": "SchoolEast",
+        "roadName": "강남1길 (학교 동측 정문 앞 남북 본선)",
+        "vertical": true,
+        "rotationY": 6.5,
+        "x": 114.9,
+        "zCenter": -11.6,
+        "length": 227.0,
+        "width": 8.0,
+        "sidewalk": 2.0,
+        "centerLine": "yellow-solid",
+        "crosswalkZ": 16.0,
+        "schoolZone": true,
+        "uCenter": 115.5,
+        "vRange": [-112.0, 115.0],
+        "corridorClearance": {
+          "westEdgeU": 109.5,
+          "eastEdgeU": 121.5,
+          "westObstacleMaxU": 109.2,
+          "eastObstacleMinU": 121.9
+        }
+      },
+      {
+        "name": "SchoolNorth",
+        "roadName": "강남5길 (학교 북측 ~ 현진에버빌 사이 동서 본선)",
+        "vertical": false,
+        "rotationY": 6.5,
+        "xCenter": 59.9,
+        "z": -70.2,
+        "length": 305.0,
+        "width": 9.0,
+        "sidewalk": 2.5,
+        "centerLine": "yellow-solid",
+        "crosswalkX": -18.0,
+        "uRange": [-85.0, 220.0],
+        "vCenter": -63.0,
+        "corridorClearance": {
+          "northEdgeV": -70.0,
+          "southEdgeV": -56.0,
+          "northObstacleMaxV": -74.4,
+          "southObstacleMinV": -51.1
+        }
+      },
+      {
+        "name": "SchoolSouth",
+        "roadName": "강남1길 남측구간 (학교 남측 담장 ~ 강남1길 88-* 상가열 사이)",
+        "vertical": false,
+        "rotationY": 6.5,
+        "xCenter": 57.8,
+        "z": 58.0,
+        "length": 129.3,
+        "width": 6.0,
+        "sidewalk": 1.5,
+        "centerLine": "yellow-solid",
+        "crosswalkX": 108.0,
+        "uRange": [-13.8, 115.5],
+        "vCenter": 64.2,
+        "corridorClearance": {
+          "northEdgeV": 59.7,
+          "southEdgeV": 68.7,
+          "northObstacleMaxV": 59.5,
+          "southObstacleMinV": 68.9
+        }
+      },
+      {
+        "name": "SchoolWest",
+        "roadName": "강남5길 서측 지선 (학교 서측 담장 ~ 석미한아름아파트 단지 경계 도로)",
+        "vertical": true,
+        "rotationY": 6.5,
+        "x": -11.3,
+        "zCenter": 24.7,
+        "length": 172.5,
+        "width": 6.5,
+        "sidewalk": 2.0,
+        "centerLine": "white-dash",
+        "crosswalkZ": -55.0,
+        "uCenter": -14.0,
+        "vRange": [-63.0, 109.5],
+        "corridorClearance": {
+          "westEdgeU": -19.25,
+          "eastEdgeU": -8.75,
+          "westObstacleMaxU": -20.7,
+          "eastObstacleMinU": -7.4
+        }
+      },
+      {
+        "name": "Gangnam6Gil",
+        "roadName": "강남6길 서측 (학교 동측 강남1길 T자 교차로 ~ 강남6길 9/10)",
+        "vertical": false,
+        "rotationY": 6.5,
+        "xCenter": 144.0,
+        "z": -29.9,
+        "length": 62.0,
+        "width": 6.0,
+        "sidewalk": 1.5,
+        "centerLine": "white-dash",
+        "crosswalkX": 120.0,
+        "uRange": [115.5, 177.5],
+        "vCenter": -13.4,
+        "corridorClearance": {
+          "northEdgeV": -17.9,
+          "southEdgeV": -8.9,
+          "northObstacleMaxV": -18.4,
+          "southObstacleMinV": -8.0
+        }
+      },
+      {
+        "name": "Gangnam6GilEast",
+        "roadName": "강남6길 동측 (강남6길 14~24 구간)",
+        "vertical": false,
+        "rotationY": 6.5,
+        "xCenter": 202.3,
+        "z": -35.6,
+        "length": 55.0,
+        "width": 5.5,
+        "sidewalk": 1.2,
+        "centerLine": "white-dash",
+        "uRange": [177.5, 232.5],
+        "vCenter": -12.5,
+        "corridorClearance": {
+          "northEdgeV": -16.45,
+          "southEdgeV": -8.55,
+          "northObstacleMaxV": -16.6,
+          "southObstacleMinV": -8.0
+        }
+      },
+      {
+        "name": "Gangnam7Gil",
+        "roadName": "강남7길 (강남1길 동남측 T자 교차 동서 도로)",
+        "vertical": false,
+        "rotationY": 6.5,
+        "xCenter": 180.2,
+        "z": 44.7,
+        "length": 117.0,
+        "width": 5.5,
+        "sidewalk": 1.2,
+        "centerLine": "white-dash",
+        "crosswalkX": 125.0,
+        "uRange": [115.5, 232.5],
+        "vCenter": 64.8,
+        "corridorClearance": {
+          "northEdgeV": 60.85,
+          "southEdgeV": 68.75,
+          "northObstacleMaxV": 60.6,
+          "southObstacleMinV": 68.9
+        }
+      },
+      {
+        "name": "SouthLane",
+        "roadName": "강남1길 남단 동서 본선 및 강남1길 98-* 남측 도로",
+        "vertical": false,
+        "rotationY": 6.5,
+        "xCenter": 119.7,
+        "z": 96.6,
+        "length": 244.0,
+        "width": 8.0,
+        "sidewalk": 2.0,
+        "centerLine": "yellow-solid",
+        "crosswalkX": 122.0,
+        "uRange": [-14.0, 230.0],
+        "vCenter": 109.5,
+        "corridorClearance": {
+          "northEdgeV": 103.5,
+          "southEdgeV": 115.5,
+          "northObstacleMaxV": 101.7,
+          "southObstacleMinV": 117.5
+        }
+      }
+    ]
+  },
+  "roadsAxisAlignedSegmented": {
+    "description": "Fallback axis-aligned (rotationY = 0) segmented road layout if Street.luau is used without rotationY. Verified 0.00m overlap with all 406 VWorldBlocks and 0.00m overlap with school-main.",
+    "segments": [
+      { "name": "SchoolEastNorth", "vertical": true,  "x": 105.0, "zCenter": -86.5, "length": 68.0,  "width": 7.0, "sidewalk": 1.8, "centerLine": "yellow-solid" },
+      { "name": "SchoolEastMain",  "vertical": true,  "x": 110.2, "zCenter": -2.0,  "length": 101.0, "width": 7.6, "sidewalk": 2.0, "centerLine": "yellow-solid", "crosswalkZ": 16.0, "schoolZone": true },
+      { "name": "SchoolEastSouth", "vertical": true,  "x": 123.5, "zCenter": 73.5,  "length": 50.0,  "width": 7.0, "sidewalk": 1.8, "centerLine": "yellow-solid" },
+      { "name": "SchoolNorthWest", "vertical": false, "z": -58.5, "xCenter": -47.5, "length": 75.0,  "width": 8.0, "sidewalk": 2.2, "centerLine": "yellow-solid", "crosswalkX": -18.0 },
+      { "name": "SchoolNorthMain", "vertical": false, "z": -65.5, "xCenter": 51.0,  "length": 122.0, "width": 9.0, "sidewalk": 2.5, "centerLine": "yellow-solid" },
+      { "name": "SchoolNorthEast", "vertical": false, "z": -80.0, "xCenter": 156.0, "length": 88.0,  "width": 8.0, "sidewalk": 2.0, "centerLine": "yellow-solid" },
+      { "name": "SchoolSouthWest", "vertical": false, "z": 56.0,  "xCenter": 28.0,  "length": 76.0,  "width": 6.5, "sidewalk": 1.8, "centerLine": "yellow-solid" },
+      { "name": "SchoolSouthEast", "vertical": false, "z": 52.2,  "xCenter": 92.0,  "length": 52.0,  "width": 5.0, "sidewalk": 1.2, "centerLine": "yellow-solid", "crosswalkX": 108.0 },
+      { "name": "SchoolWestMain",  "vertical": true,  "x": -10.2, "zCenter": -1.0,  "length": 114.0, "width": 6.5, "sidewalk": 2.0, "centerLine": "white-dash" },
+      { "name": "SchoolWestSouth", "vertical": true,  "x": -4.0,  "zCenter": 79.0,  "length": 46.0,  "width": 5.5, "sidewalk": 1.5, "centerLine": "white-dash" },
+      { "name": "Gangnam6GilWest", "vertical": false, "z": -29.0, "xCenter": 135.0, "length": 34.0,  "width": 5.0, "sidewalk": 1.0, "centerLine": "white-dash" },
+      { "name": "Gangnam6GilMid",  "vertical": false, "z": -33.2, "xCenter": 166.0, "length": 28.0,  "width": 5.0, "sidewalk": 1.0, "centerLine": "white-dash" },
+      { "name": "SouthLaneWest",   "vertical": false, "z": 105.8, "xCenter": 60.0,  "length": 120.0, "width": 6.5, "sidewalk": 1.5, "centerLine": "yellow-solid" },
+      { "name": "SouthLaneEast",   "vertical": false, "z": 93.5,  "xCenter": 165.0, "length": 90.0,  "width": 6.5, "sidewalk": 1.5, "centerLine": "yellow-solid", "crosswalkX": 126.0 }
+    ]
+  },
+  "roadsideFurniture": {
+    "description": "Exact non-overlapping coordinates for street lamps, electric poles, and trees along the sidewalks around the school and inside the school perimeter. Note: existing Blocks.luau had pole-e01 (117.5, -8) and pole-e02 (117.5, 22) standing inside the 강남1길 asphalt lane, and lamp-e02 (107.8, 28) / lamp-s01..s03 (Z=52.5) drifting off the tilted sidewalks. All coordinates below are verified to have 0.00m overlap with all 406 VWorldBlocks, school buildings, and road asphalt lanes.",
+    "lamps": [
+      { "id": "lamp-e01", "kind": "lamp", "road": "SchoolEast",  "side": "west-sidewalk",  "rotationY": 6.5,   "params": { "kind": "lamp", "offsetX": 104.8, "offsetZ": -56.2, "height": 8.0, "arm": 2.0 } },
+      { "id": "lamp-e02", "kind": "lamp", "road": "SchoolEast",  "side": "west-sidewalk",  "rotationY": 6.5,   "params": { "kind": "lamp", "offsetX": 107.1, "offsetZ": -36.4, "height": 8.0, "arm": 2.0 } },
+      { "id": "lamp-e03", "kind": "lamp", "road": "SchoolEast",  "side": "west-sidewalk",  "rotationY": 6.5,   "params": { "kind": "lamp", "offsetX": 109.3, "offsetZ": -16.5, "height": 8.0, "arm": 2.0 } },
+      { "id": "lamp-e04", "kind": "lamp", "road": "SchoolEast",  "side": "west-sidewalk",  "rotationY": 6.5,   "params": { "kind": "lamp", "offsetX": 113.0, "offsetZ": 15.3,  "height": 8.0, "arm": 2.0 } },
+      { "id": "lamp-e05", "kind": "lamp", "road": "SchoolEast",  "side": "west-sidewalk",  "rotationY": 6.5,   "params": { "kind": "lamp", "offsetX": 115.0, "offsetZ": 33.2,  "height": 8.0, "arm": 2.0 } },
+      { "id": "lamp-n01", "kind": "lamp", "road": "SchoolNorth", "side": "south-sidewalk", "rotationY": -83.5, "params": { "kind": "lamp", "offsetX": -2.5,  "offsetZ": -57.3, "height": 8.0, "arm": 2.2 } },
+      { "id": "lamp-n02", "kind": "lamp", "road": "SchoolNorth", "side": "south-sidewalk", "rotationY": -83.5, "params": { "kind": "lamp", "offsetX": 27.3,  "offsetZ": -60.7, "height": 8.0, "arm": 2.2 } },
+      { "id": "lamp-n03", "kind": "lamp", "road": "SchoolNorth", "side": "south-sidewalk", "rotationY": -83.5, "params": { "kind": "lamp", "offsetX": 57.1,  "offsetZ": -64.1, "height": 8.0, "arm": 2.2 } },
+      { "id": "lamp-n04", "kind": "lamp", "road": "SchoolNorth", "side": "south-sidewalk", "rotationY": -83.5, "params": { "kind": "lamp", "offsetX": 86.9,  "offsetZ": -67.5, "height": 8.0, "arm": 2.2 } },
+      { "id": "lamp-n05", "kind": "lamp", "road": "SchoolNorth", "side": "south-sidewalk", "rotationY": -83.5, "params": { "kind": "lamp", "offsetX": 126.7, "offsetZ": -72.0, "height": 8.0, "arm": 2.2 } },
+      { "id": "lamp-n06", "kind": "lamp", "road": "SchoolNorth", "side": "south-sidewalk", "rotationY": -83.5, "params": { "kind": "lamp", "offsetX": 160.5, "offsetZ": -75.9, "height": 8.0, "arm": 2.2 } },
+      { "id": "lamp-s01", "kind": "lamp", "road": "SchoolSouth", "side": "north-sidewalk", "rotationY": 96.5,  "params": { "kind": "lamp", "offsetX": 21.7,  "offsetZ": 58.3,  "height": 8.0, "arm": 2.0 } },
+      { "id": "lamp-s02", "kind": "lamp", "road": "SchoolSouth", "side": "north-sidewalk", "rotationY": 96.5,  "params": { "kind": "lamp", "offsetX": 51.5,  "offsetZ": 54.9,  "height": 8.0, "arm": 2.0 } },
+      { "id": "lamp-s03", "kind": "lamp", "road": "SchoolSouth", "side": "north-sidewalk", "rotationY": 96.5,  "params": { "kind": "lamp", "offsetX": 81.4,  "offsetZ": 51.5,  "height": 8.0, "arm": 2.0 } },
+      { "id": "lamp-s04", "kind": "lamp", "road": "SchoolSouth", "side": "north-sidewalk", "rotationY": 96.5,  "params": { "kind": "lamp", "offsetX": 104.2, "offsetZ": 48.9,  "height": 8.0, "arm": 2.0 } },
+      { "id": "lamp-w01", "kind": "lamp", "road": "SchoolWest",  "side": "east-sidewalk",  "rotationY": 186.5, "params": { "kind": "lamp", "offsetX": -13.7, "offsetZ": -34.7, "height": 8.0, "arm": 2.0 } },
+      { "id": "lamp-w02", "kind": "lamp", "road": "SchoolWest",  "side": "east-sidewalk",  "rotationY": 186.5, "params": { "kind": "lamp", "offsetX": -10.3, "offsetZ": -4.9,  "height": 8.0, "arm": 2.0 } },
+      { "id": "lamp-w03", "kind": "lamp", "road": "SchoolWest",  "side": "east-sidewalk",  "rotationY": 186.5, "params": { "kind": "lamp", "offsetX": -6.9,  "offsetZ": 24.9,  "height": 8.0, "arm": 2.0 } },
+      { "id": "lamp-w04", "kind": "lamp", "road": "SchoolWest",  "side": "east-sidewalk",  "rotationY": 186.5, "params": { "kind": "lamp", "offsetX": -4.0,  "offsetZ": 50.8,  "height": 8.0, "arm": 2.0 } }
+    ],
+    "poles": [
+      { "id": "pole-e01", "kind": "pole", "road": "SchoolEast",  "side": "east-sidewalk",  "rotationY": 6.5,   "params": { "kind": "pole", "offsetX": 114.3, "offsetZ": -61.3, "height": 9.5, "crossarm": true, "transformer": false } },
+      { "id": "pole-e02", "kind": "pole", "road": "SchoolEast",  "side": "east-sidewalk",  "rotationY": 6.5,   "params": { "kind": "pole", "offsetX": 116.9, "offsetZ": -38.5, "height": 9.5, "crossarm": true, "transformer": true  } },
+      { "id": "pole-e03", "kind": "pole", "road": "SchoolEast",  "side": "east-sidewalk",  "rotationY": 6.5,   "params": { "kind": "pole", "offsetX": 120.0, "offsetZ": -11.7, "height": 9.5, "crossarm": true, "transformer": false } },
+      { "id": "pole-e04", "kind": "pole", "road": "SchoolEast",  "side": "east-sidewalk",  "rotationY": 6.5,   "params": { "kind": "pole", "offsetX": 122.4, "offsetZ": 10.2,  "height": 9.5, "crossarm": true, "transformer": true  } },
+      { "id": "pole-e05", "kind": "pole", "road": "SchoolEast",  "side": "east-sidewalk",  "rotationY": 6.5,   "params": { "kind": "pole", "offsetX": 124.8, "offsetZ": 31.1,  "height": 9.5, "crossarm": true, "transformer": false } },
+      { "id": "pole-e06", "kind": "pole", "road": "SchoolEast",  "side": "east-sidewalk",  "rotationY": 6.5,   "params": { "kind": "pole", "offsetX": 128.8, "offsetZ": 65.8,  "height": 9.5, "crossarm": true, "transformer": false } },
+      { "id": "pole-n01", "kind": "pole", "road": "SchoolNorth", "side": "north-sidewalk", "rotationY": -83.5, "params": { "kind": "pole", "offsetX": -52.5, "offsetZ": -63.3, "height": 9.5, "crossarm": true, "transformer": false } },
+      { "id": "pole-n02", "kind": "pole", "road": "SchoolNorth", "side": "north-sidewalk", "rotationY": -83.5, "params": { "kind": "pole", "offsetX": 4.1,   "offsetZ": -69.7, "height": 9.5, "crossarm": true, "transformer": true  } },
+      { "id": "pole-n03", "kind": "pole", "road": "SchoolNorth", "side": "north-sidewalk", "rotationY": -83.5, "params": { "kind": "pole", "offsetX": 43.9,  "offsetZ": -74.2, "height": 9.5, "crossarm": true, "transformer": false } },
+      { "id": "pole-n04", "kind": "pole", "road": "SchoolNorth", "side": "north-sidewalk", "rotationY": -83.5, "params": { "kind": "pole", "offsetX": 83.6,  "offsetZ": -78.8, "height": 9.5, "crossarm": true, "transformer": true  } },
+      { "id": "pole-n05", "kind": "pole", "road": "SchoolNorth", "side": "north-sidewalk", "rotationY": -83.5, "params": { "kind": "pole", "offsetX": 139.3, "offsetZ": -85.1, "height": 9.5, "crossarm": true, "transformer": false } },
+      { "id": "pole-s01", "kind": "pole", "road": "SchoolSouth", "side": "south-sidewalk", "rotationY": -83.5, "params": { "kind": "pole", "offsetX": 27.6,  "offsetZ": 65.3,  "height": 9.5, "crossarm": true, "transformer": false } },
+      { "id": "pole-s02", "kind": "pole", "road": "SchoolSouth", "side": "south-sidewalk", "rotationY": -83.5, "params": { "kind": "pole", "offsetX": 68.8,  "offsetZ": 60.6,  "height": 9.5, "crossarm": true, "transformer": true  } },
+      { "id": "pole-s03", "kind": "pole", "road": "SchoolSouth", "side": "south-sidewalk", "rotationY": -83.5, "params": { "kind": "pole", "offsetX": 100.5, "offsetZ": 57.0,  "height": 9.5, "crossarm": true, "transformer": false } }
+    ],
+    "trees": [
+      { "id": "tree-road-e01", "kind": "tree", "road": "SchoolEast",        "side": "west-sidewalk",  "rotationY": 6.5, "params": { "kind": "tree", "offsetX": 105.9, "offsetZ": -46.3, "trunkHeight": 2.8, "crownSize": 3.2, "squareBollard": true } },
+      { "id": "tree-road-e02", "kind": "tree", "road": "SchoolEast",        "side": "west-sidewalk",  "rotationY": 6.5, "params": { "kind": "tree", "offsetX": 108.2, "offsetZ": -26.4, "trunkHeight": 2.8, "crownSize": 3.2, "squareBollard": true } },
+      { "id": "tree-road-e03", "kind": "tree", "road": "SchoolEast",        "side": "west-sidewalk",  "rotationY": 6.5, "params": { "kind": "tree", "offsetX": 114.0, "offsetZ": 24.3,  "trunkHeight": 2.8, "crownSize": 3.2, "squareBollard": true } },
+      { "id": "tree-road-n01", "kind": "tree", "road": "SchoolNorth",       "side": "south-sidewalk", "rotationY": 6.5, "params": { "kind": "tree", "offsetX": 12.4,  "offsetZ": -59.0, "trunkHeight": 2.8, "crownSize": 3.4, "squareBollard": true } },
+      { "id": "tree-road-n02", "kind": "tree", "road": "SchoolNorth",       "side": "south-sidewalk", "rotationY": 6.5, "params": { "kind": "tree", "offsetX": 42.2,  "offsetZ": -62.4, "trunkHeight": 2.8, "crownSize": 3.4, "squareBollard": true } },
+      { "id": "tree-road-n03", "kind": "tree", "road": "SchoolNorth",       "side": "south-sidewalk", "rotationY": 6.5, "params": { "kind": "tree", "offsetX": 72.0,  "offsetZ": -65.8, "trunkHeight": 2.8, "crownSize": 3.4, "squareBollard": true } },
+      { "id": "tree-road-w01", "kind": "tree", "road": "SchoolWest",        "side": "east-sidewalk",  "rotationY": 6.5, "params": { "kind": "tree", "offsetX": -12.0, "offsetZ": -19.8, "trunkHeight": 2.6, "crownSize": 3.0, "squareBollard": true } },
+      { "id": "tree-road-w02", "kind": "tree", "road": "SchoolWest",        "side": "east-sidewalk",  "rotationY": 6.5, "params": { "kind": "tree", "offsetX": -8.6,  "offsetZ": 10.0,  "trunkHeight": 2.6, "crownSize": 3.0, "squareBollard": true } },
+      { "id": "tree-road-w03", "kind": "tree", "road": "SchoolWest",        "side": "east-sidewalk",  "rotationY": 6.5, "params": { "kind": "tree", "offsetX": -5.4,  "offsetZ": 37.8,  "trunkHeight": 2.6, "crownSize": 3.0, "squareBollard": true } },
+      { "id": "tree-e01",      "kind": "tree", "road": "SchoolCampusEast",  "side": "inside-fence",   "rotationY": 0.0, "params": { "kind": "tree", "offsetX": 98.0,  "offsetZ": 22.0,  "trunkHeight": 3.0, "crownSize": 3.8 } },
+      { "id": "tree-e02",      "kind": "tree", "road": "SchoolCampusEast",  "side": "inside-fence",   "rotationY": 0.0, "params": { "kind": "tree", "offsetX": 98.0,  "offsetZ": 31.0,  "trunkHeight": 3.0, "crownSize": 3.8 } },
+      { "id": "tree-s01",      "kind": "tree", "road": "SchoolCampusSouth", "side": "inside-fence",   "rotationY": 0.0, "params": { "kind": "tree", "offsetX": 34.0,  "offsetZ": 44.0,  "trunkHeight": 2.8, "crownSize": 3.4 } },
+      { "id": "tree-s02",      "kind": "tree", "road": "SchoolCampusSouth", "side": "inside-fence",   "rotationY": 0.0, "params": { "kind": "tree", "offsetX": 52.0,  "offsetZ": 44.0,  "trunkHeight": 2.8, "crownSize": 3.4 } },
+      { "id": "tree-s03",      "kind": "tree", "road": "SchoolCampusSouth", "side": "inside-fence",   "rotationY": 0.0, "params": { "kind": "tree", "offsetX": 70.0,  "offsetZ": 44.0,  "trunkHeight": 2.8, "crownSize": 3.4 } },
+      { "id": "tree-s04",      "kind": "tree", "road": "SchoolCampusSouth", "side": "inside-fence",   "rotationY": 0.0, "params": { "kind": "tree", "offsetX": 88.0,  "offsetZ": 44.0,  "trunkHeight": 2.8, "crownSize": 3.4 } }
+    ]
+  }
+}
